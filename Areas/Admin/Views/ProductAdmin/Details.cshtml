@@ -1,0 +1,114 @@
+﻿@model WebBanSanPhamCongNghe.Areas.Admin.Data.Product
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<!--begin::App Content Header-->
+<div class="app-content-header">
+    <!--begin::Container-->
+    <div class="container-fluid">
+        <!--begin::Row-->
+        <div class="row">
+            <div class="col-sm-6"><h3 class="mb-0">Product</h3></div>
+        </div>
+        <!--end::Row-->
+    </div>
+    <!--end::Container-->
+</div>
+<!--end::App Content Header-->
+<!--begin::App Content-->
+<div class="app-content">
+    <!--begin::Container-->
+    <div class="container-fluid">
+        <!--begin::Row-->
+        <div class="row">
+            <div class="col-12">
+                <!--begin::Card-->
+                <div class="card card-primary card-outline">
+                    <!--begin::Header-->
+                    <div class="card-header">
+                        <div class="card-title">
+                            <h3>Details</h3>
+                        </div>
+                    </div>
+                    <!--end::Header-->
+                    <!--begin::Body-->
+                    <div class="card-body">
+                        <dl class="row">
+                            <dt class="col-sm-2">
+                                @Html.DisplayNameFor(model => model.Id)
+                            </dt>
+                            <dd class="col-sm-10">
+                                @Html.DisplayFor(model => model.Id)
+                            </dd>
+                            <dt class="col-sm-2">
+                                @Html.DisplayNameFor(model => model.Title)
+                            </dt>
+                            <dd class="col-sm-10">
+                                @Html.DisplayFor(model => model.Title)
+                            </dd>
+                            <dt class="col-sm-2">
+                                @Html.DisplayNameFor(model => model.Content)
+                            </dt>
+                            <dd class="col-sm-10">
+                                @Html.DisplayFor(model => model.Content)
+                            </dd>
+                            <dt class="col-sm-2">
+                                @Html.DisplayNameFor(model => model.Img)
+                            </dt>
+                            <dd class="col-sm-10">
+                                <img src="~/Images/Product/@Model.Img" class="img-fluid rounded"
+                                        alt="Image"
+                                        width="250" height="250"
+                                        object-fit: cover;>
+                            </dd>
+                            <dt class="col-sm-2">
+                                @Html.DisplayNameFor(model => model.Price)
+                            </dt>
+                            <dd class="col-sm-10">
+                                @Html.DisplayFor(model => model.Price)
+                            </dd>
+                            <dt class="col-sm-2">
+                                @Html.DisplayNameFor(model => model.Rate)
+                            </dt>
+                            <dd class="col-sm-10">
+                                @Html.DisplayFor(model => model.Rate)
+                            </dd>
+                            <dt class="col-sm-2">
+                                @Html.DisplayNameFor(model => model.CreateAt)
+                            </dt>
+                            <dd class="col-sm-10">
+                                @Html.DisplayFor(model => model.CreateAt)
+                            </dd>
+                            <dt class="col-sm-2">
+                                @Html.DisplayNameFor(model => model.UpdateAt)
+                            </dt>
+                            <dd class="col-sm-10">
+                                @Html.DisplayFor(model => model.UpdateAt)
+                            </dd>
+                            <dt class="col-sm-2">
+                                @Html.DisplayNameFor(model => model.Category.Title)
+                            </dt>
+                            <dd class="col-sm-10">
+                                @Html.DisplayFor(model => model.Category.Title)
+                            </dd>
+                        </dl>
+                    </div>
+                    <!--end::Body-->
+                    <!--begin::Footer-->
+                    <div class="card-footer">
+                        <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-warning">Edit</a>
+                        <a asp-action="Index" class="btn btn-primary float-end">Back to List</a>
+                    </div>
+                    <!--end::Footer-->
+                </div>
+                <!--end::Card-->
+            </div>
+        </div>
+        <!--end::Row-->
+    </div>
+    <!--end::Container-->
+</div>
+<!--end::App Content-->
+

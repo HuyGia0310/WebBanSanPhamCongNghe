@@ -1,0 +1,156 @@
+﻿@model IEnumerable<WebBanSanPhamCongNghe.Areas.Admin.Data.Menu>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<!--begin::App Content Header-->
+<div class="app-content-header">
+    <!--begin::Container-->
+    <div class="container-fluid">
+        <!--begin::Row-->
+        <div class="row">
+            <div class="col-sm-6"><h3 class="mb-0">Menu</h3></div>
+        </div>
+        <!--end::Row-->
+    </div>
+    <!--end::Container-->
+</div>
+<!--end::App Content Header-->
+<!--begin::App Content-->
+<div class="app-content">
+    <!--begin::Container-->
+    <div class="container-fluid">
+        <!--begin::Row-->
+        <div class="row">
+            <div class="col-12">
+                <!--begin::Card-->
+                <div class="card card-primary card-outline">
+                    <!--begin::Header-->
+                    <div class="card-header bg-white">
+                        <div class="card-title">
+                            <h3>Menu List</h3>
+                        </div>
+                        <a asp-action="Create" class="btn btn-success float-end">Create New</a>
+                    </div>
+                    <!--end::Header-->
+                    <!--begin::Body-->
+                    <div class="card-body">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.Id)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.Title)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.MenuUrl)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.MenuIndex)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.IsVisible)
+                                    </th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model.Where(m => m.ParentId == null).OrderBy(m => m.MenuIndex))
+                                {
+                                    <tr>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Id)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Title)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.MenuUrl)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.MenuIndex)
+                                        </td>
+                                        <td>
+                                            @((bool)item.IsVisible ? "Visible" : "Invisible")
+                                        </td>
+                                        <td>
+                                            <a asp-action="Create" asp-route-parentId="@item.Id" class="btn btn-success btn-sm">Create SubMenu</a>
+                                            <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Edit</a>
+                                            <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary btn-sm">Details</a>
+                                            <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Delete</a>
+                                        </td>
+                                    </tr>
+                                    @if (Model.Any(m => m.ParentId == item.Id))
+                                    {
+                                        <tr>
+                                            <td></td>
+                                            <td colspan="5">
+                                                <table class="table table-bordered">
+                                                    <thead class="table-secondary">
+                                                        <tr>
+                                                            <th>
+                                                                @Html.DisplayNameFor(model => model.Id)
+                                                            </th>
+                                                            <th>
+                                                                @Html.DisplayNameFor(model => model.Title)
+                                                            </th>
+                                                            <th>
+                                                                @Html.DisplayNameFor(model => model.MenuUrl)
+                                                            </th>
+                                                            <th>
+                                                                @Html.DisplayNameFor(model => model.MenuIndex)
+                                                            </th>
+                                                            <th>
+                                                                @Html.DisplayNameFor(model => model.IsVisible)
+                                                            </th>
+                                                            <th></th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        @foreach (var submenu in Model.Where(m => m.ParentId == item.Id).OrderBy(m => m.MenuIndex))
+                                                        {
+                                                            <tr>
+                                                                <td>
+                                                                    @Html.DisplayFor(modelItem => submenu.Id)
+                                                                </td>
+                                                                <td>
+                                                                    @Html.DisplayFor(modelItem => submenu.Title)
+                                                                </td>
+                                                                <td>
+                                                                    @Html.DisplayFor(modelItem => submenu.MenuUrl)
+                                                                </td>
+                                                                <td>
+                                                                    @Html.DisplayFor(modelItem => submenu.MenuIndex)
+                                                                </td>
+                                                                <td>
+                                                                    @((bool)submenu.IsVisible ? "Visible" : "Invisible")
+                                                                </td>
+                                                                <td>
+                                                                    <a asp-action="Edit" asp-route-id="@submenu.Id" class="btn btn-warning btn-sm">Edit</a>
+                                                                    <a asp-action="Details" asp-route-id="@submenu.Id" class="btn btn-primary btn-sm">Details</a>
+                                                                    <a asp-action="Delete" asp-route-id="@submenu.Id" class="btn btn-danger btn-sm">Delete</a>
+                                                                </td>
+                                                            </tr>
+                                                        }
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    }                                       
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                    <!--end::Body-->
+                </div>
+                <!--end::Card-->
+            </div>
+        </div>
+        <!--end::Row-->
+    </div>
+    <!--end::Container-->
+</div>
+<!--end::App Content-->

@@ -1,0 +1,1616 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\areas\\admin\\controllers\\categoryadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:areas\\admin\\controllers\\categoryadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\areas\\admin\\controllers\\customeradmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:areas\\admin\\controllers\\customeradmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\areas\\admin\\controllers\\contactadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:areas\\admin\\controllers\\contactadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\areas\\admin\\controllers\\menuadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:areas\\admin\\controllers\\menuadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\areas\\admin\\controllers\\paymentadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:areas\\admin\\controllers\\paymentadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\areas\\admin\\views\\categoryadmin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:areas\\admin\\views\\categoryadmin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\viewcomponents\\cartviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:viewcomponents\\cartviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\views\\shared\\components\\cart\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:views\\shared\\components\\cart\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\areas\\admin\\controllers\\productadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:areas\\admin\\controllers\\productadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\areas\\admin\\views\\paymentadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:areas\\admin\\views\\paymentadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\areas\\admin\\viewcomponents\\userviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:areas\\admin\\viewcomponents\\userviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\viewcomponents\\bestseller productviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:viewcomponents\\bestseller productviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\viewcomponents\\carouselcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:viewcomponents\\carouselcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\viewcomponents\\featuredproductsviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:viewcomponents\\featuredproductsviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\viewcomponents\\menucategoryviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:viewcomponents\\menucategoryviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\viewcomponents\\menudynamicviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:viewcomponents\\menudynamicviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\viewcomponents\\relatedproductviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:viewcomponents\\relatedproductviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\areas\\admin\\data\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:areas\\admin\\data\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\areas\\admin\\data\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:areas\\admin\\data\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\areas\\admin\\data\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:areas\\admin\\data\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\areas\\admin\\views\\paymentadmin\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:areas\\admin\\views\\paymentadmin\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\areas\\admin\\data\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:areas\\admin\\data\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\areas\\admin\\data\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:areas\\admin\\data\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\areas\\admin\\data\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:areas\\admin\\data\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\areas\\admin\\data\\paymentdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:areas\\admin\\data\\paymentdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\areas\\admin\\views\\paymentadmin\\salesreport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:areas\\admin\\views\\paymentadmin\\salesreport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\areas\\admin\\data\\myshopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:areas\\admin\\data\\myshopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\views\\shared\\components\\relatedproduct\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:views\\shared\\components\\relatedproduct\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\views\\shared\\components\\menudynamic\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:views\\shared\\components\\menudynamic\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\views\\shared\\components\\featuredproducts\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:views\\shared\\components\\featuredproducts\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\views\\shared\\components\\carouselcategory\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:views\\shared\\components\\carouselcategory\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\views\\shared\\components\\bestsellerproduct\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:views\\shared\\components\\bestsellerproduct\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\views\\shared\\_layoutcustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:views\\shared\\_layoutcustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\views\\home\\pagenotfound.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:views\\home\\pagenotfound.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\views\\customer\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:views\\customer\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\views\\customer\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:views\\customer\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\views\\customer\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:views\\customer\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\areas\\admin\\views\\shared\\components\\user\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:areas\\admin\\views\\shared\\components\\user\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\areas\\admin\\views\\productadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:areas\\admin\\views\\productadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\areas\\admin\\views\\productadmin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:areas\\admin\\views\\productadmin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\areas\\admin\\views\\productadmin\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:areas\\admin\\views\\productadmin\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\areas\\admin\\views\\productadmin\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:areas\\admin\\views\\productadmin\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\areas\\admin\\views\\productadmin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:areas\\admin\\views\\productadmin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\areas\\admin\\views\\menuadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:areas\\admin\\views\\menuadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\areas\\admin\\views\\menuadmin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:areas\\admin\\views\\menuadmin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\areas\\admin\\views\\menuadmin\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:areas\\admin\\views\\menuadmin\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\areas\\admin\\views\\menuadmin\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:areas\\admin\\views\\menuadmin\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\areas\\admin\\views\\menuadmin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:areas\\admin\\views\\menuadmin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\areas\\admin\\views\\customeradmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:areas\\admin\\views\\customeradmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\areas\\admin\\views\\customeradmin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:areas\\admin\\views\\customeradmin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\areas\\admin\\views\\customeradmin\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:areas\\admin\\views\\customeradmin\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\areas\\admin\\views\\contactadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:areas\\admin\\views\\contactadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\areas\\admin\\views\\categoryadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:areas\\admin\\views\\categoryadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\areas\\admin\\views\\categoryadmin\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:areas\\admin\\views\\categoryadmin\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\areas\\admin\\views\\categoryadmin\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:areas\\admin\\views\\categoryadmin\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\areas\\admin\\views\\categoryadmin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:areas\\admin\\views\\categoryadmin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\models\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:models\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\models\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:models\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\models\\reviewviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:models\\reviewviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\models\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:models\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\models\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:models\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\models\\navbaritem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:models\\navbaritem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\models\\myconst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:models\\myconst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\models\\customernewpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:models\\customernewpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\models\\customerforgotpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:models\\customerforgotpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\models\\categorymenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:models\\categorymenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\models\\cartmodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:models\\cartmodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\areas\\admin\\models\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:areas\\admin\\models\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\areas\\admin\\data\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:areas\\admin\\data\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\areas\\admin\\data\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:areas\\admin\\data\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\helper\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:helper\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\wwwroot\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:wwwroot\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\wwwroot\\img\\best-product-5.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:wwwroot\\img\\best-product-5.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\wwwroot\\lib\\owlcarousel\\owl.carousel.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:wwwroot\\lib\\owlcarousel\\owl.carousel.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Rong di bo\\.nuget\\packages\\epplus\\7.5.2\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Allcode\\BaiTapLonWeb\\wwwroot\\Template\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\helper\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:helper\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\helper\\imagehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:helper\\imagehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\helper\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:helper\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\wwwroot\\template\\emailtemplate.htm||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:wwwroot\\template\\emailtemplate.htm||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|c:\\users\\huyph\\downloads\\webbansanphamcongnghe\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B7D91190-AAC7-4942-8D4B-9EBB3633D50D}|WebBanSanPhamCongNghe.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ContactAdminController.cs",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Controllers\\ContactAdminController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\ContactAdminController.cs",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Controllers\\ContactAdminController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\ContactAdminController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAUwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T13:30:45.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomerAdminController.cs",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Controllers\\CustomerAdminController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\CustomerAdminController.cs",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Controllers\\CustomerAdminController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\CustomerAdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T13:30:45.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoryAdminController.cs",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Controllers\\CategoryAdminController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\CategoryAdminController.cs",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Controllers\\CategoryAdminController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\CategoryAdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T13:30:45.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-28T13:30:45.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MenuAdminController.cs",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Controllers\\MenuAdminController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\MenuAdminController.cs",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Controllers\\MenuAdminController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\MenuAdminController.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAswNwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T13:30:45.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T13:30:45.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PaymentAdminController.cs",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Controllers\\PaymentAdminController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\PaymentAdminController.cs",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Controllers\\PaymentAdminController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\PaymentAdminController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T13:30:45.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Views\\CategoryAdmin\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\CategoryAdmin\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Views\\CategoryAdmin\\Edit.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\CategoryAdmin\\Edit.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAF0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-28T13:30:45.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Views\\Shared\\Components\\Cart\\Default.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Components\\Cart\\Default.cshtml",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Views\\Shared\\Components\\Cart\\Default.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Components\\Cart\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-28T13:30:45.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T13:30:45.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CartViewComponent.cs",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\ViewComponents\\CartViewComponent.cs",
+              "RelativeDocumentMoniker": "ViewComponents\\CartViewComponent.cs",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\ViewComponents\\CartViewComponent.cs",
+              "RelativeToolTip": "ViewComponents\\CartViewComponent.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAcwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T13:30:45.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T13:30:45.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProductAdminController.cs",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Controllers\\ProductAdminController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\ProductAdminController.cs",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Controllers\\ProductAdminController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\ProductAdminController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAwwMsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T13:30:45.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Controllers\\CartController.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAIwIcAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T13:30:45.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Cart\\Index.cshtml",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "Views\\Cart\\Index.cshtml",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwP4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-28T13:30:45.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Views\\PaymentAdmin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\PaymentAdmin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Views\\PaymentAdmin\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\PaymentAdmin\\Index.cshtml",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAADIAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-28T13:30:45.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserViewComponent.cs",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\ViewComponents\\UserViewComponent.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\ViewComponents\\UserViewComponent.cs",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\ViewComponents\\UserViewComponent.cs",
+              "RelativeToolTip": "Areas\\Admin\\ViewComponents\\UserViewComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T13:30:45.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Bestseller ProductViewComponent.cs",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\ViewComponents\\Bestseller ProductViewComponent.cs",
+              "RelativeDocumentMoniker": "ViewComponents\\Bestseller ProductViewComponent.cs",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\ViewComponents\\Bestseller ProductViewComponent.cs",
+              "RelativeToolTip": "ViewComponents\\Bestseller ProductViewComponent.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T13:30:45.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CarouselCategory.cs",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\ViewComponents\\CarouselCategory.cs",
+              "RelativeDocumentMoniker": "ViewComponents\\CarouselCategory.cs",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\ViewComponents\\CarouselCategory.cs",
+              "RelativeToolTip": "ViewComponents\\CarouselCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T13:30:45.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FeaturedProductsViewComponent.cs",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\ViewComponents\\FeaturedProductsViewComponent.cs",
+              "RelativeDocumentMoniker": "ViewComponents\\FeaturedProductsViewComponent.cs",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\ViewComponents\\FeaturedProductsViewComponent.cs",
+              "RelativeToolTip": "ViewComponents\\FeaturedProductsViewComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T13:30:45.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MenuCategoryViewComponent.cs",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\ViewComponents\\MenuCategoryViewComponent.cs",
+              "RelativeDocumentMoniker": "ViewComponents\\MenuCategoryViewComponent.cs",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\ViewComponents\\MenuCategoryViewComponent.cs",
+              "RelativeToolTip": "ViewComponents\\MenuCategoryViewComponent.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAArwBcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T13:30:45.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MenuDynamicViewComponent.cs",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\ViewComponents\\MenuDynamicViewComponent.cs",
+              "RelativeDocumentMoniker": "ViewComponents\\MenuDynamicViewComponent.cs",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\ViewComponents\\MenuDynamicViewComponent.cs",
+              "RelativeToolTip": "ViewComponents\\MenuDynamicViewComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T13:30:45.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RelatedProductViewComponent.cs",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\ViewComponents\\RelatedProductViewComponent.cs",
+              "RelativeDocumentMoniker": "ViewComponents\\RelatedProductViewComponent.cs",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\ViewComponents\\RelatedProductViewComponent.cs",
+              "RelativeToolTip": "ViewComponents\\RelatedProductViewComponent.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T13:30:45.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AgIAALMAAAAAAAAAAAAAALIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T13:30:45.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALIBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T13:30:45.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ContactController.cs",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "Controllers\\ContactController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T13:30:45.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Data\\Customer.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Data\\Customer.cs",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Data\\Customer.cs",
+              "RelativeToolTip": "Areas\\Admin\\Data\\Customer.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAuwBQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T13:30:45.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Data\\Product.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Data\\Product.cs",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Data\\Product.cs",
+              "RelativeToolTip": "Areas\\Admin\\Data\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T13:30:45.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Review.cs",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Data\\Review.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Data\\Review.cs",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Data\\Review.cs",
+              "RelativeToolTip": "Areas\\Admin\\Data\\Review.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAkwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T13:30:45.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Views\\PaymentAdmin\\Details.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\PaymentAdmin\\Details.cshtml",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Views\\PaymentAdmin\\Details.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\PaymentAdmin\\Details.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAEAAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-28T13:30:45.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Data\\Cart.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Data\\Cart.cs",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Data\\Cart.cs",
+              "RelativeToolTip": "Areas\\Admin\\Data\\Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T07:26:05.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Data\\Contact.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Data\\Contact.cs",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Data\\Contact.cs",
+              "RelativeToolTip": "Areas\\Admin\\Data\\Contact.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T13:30:45.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Data\\Payment.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Data\\Payment.cs",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Data\\Payment.cs",
+              "RelativeToolTip": "Areas\\Admin\\Data\\Payment.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA1wAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T13:30:45.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "PaymentDetail.cs",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Data\\PaymentDetail.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Data\\PaymentDetail.cs",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Data\\PaymentDetail.cs",
+              "RelativeToolTip": "Areas\\Admin\\Data\\PaymentDetail.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAzwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T13:30:45.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "SalesReport.cshtml",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Views\\PaymentAdmin\\SalesReport.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\PaymentAdmin\\SalesReport.cshtml",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Views\\PaymentAdmin\\SalesReport.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\PaymentAdmin\\SalesReport.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-30T07:18:50.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-30T07:21:14.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "MyShopContext.cs",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Data\\MyShopContext.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Data\\MyShopContext.cs",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Data\\MyShopContext.cs",
+              "RelativeToolTip": "Areas\\Admin\\Data\\MyShopContext.cs",
+              "ViewState": "AgIAAOwAAAAAAAAAAAAUwBsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T13:30:45.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Views\\Shared\\Components\\FeaturedProducts\\Default.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Components\\FeaturedProducts\\Default.cshtml",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Views\\Shared\\Components\\FeaturedProducts\\Default.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Components\\FeaturedProducts\\Default.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAwwBwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-28T13:30:45.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Views\\Shared\\Components\\MenuDynamic\\Default.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Components\\MenuDynamic\\Default.cshtml",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Views\\Shared\\Components\\MenuDynamic\\Default.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Components\\MenuDynamic\\Default.cshtml",
+              "ViewState": "AgIAAD0AAAAAAAAAAADwv1cAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-28T13:30:44.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Views\\Shared\\Components\\RelatedProduct\\Default.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Components\\RelatedProduct\\Default.cshtml",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Views\\Shared\\Components\\RelatedProduct\\Default.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Components\\RelatedProduct\\Default.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAwwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-28T13:30:45.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Views\\Shared\\Components\\CarouselCategory\\Default.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Components\\CarouselCategory\\Default.cshtml",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Views\\Shared\\Components\\CarouselCategory\\Default.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Components\\CarouselCategory\\Default.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwCYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-28T13:30:45.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Views\\Shared\\Components\\BestsellerProduct\\Default.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Components\\BestsellerProduct\\Default.cshtml",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Views\\Shared\\Components\\BestsellerProduct\\Default.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Components\\BestsellerProduct\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-28T13:30:45.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "_LayoutCustomer.cshtml",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Views\\Shared\\_LayoutCustomer.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LayoutCustomer.cshtml",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Views\\Shared\\_LayoutCustomer.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LayoutCustomer.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-28T13:30:45.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAuwLMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-28T13:30:45.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Views\\Product\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Details.cshtml",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Views\\Product\\Details.cshtml",
+              "RelativeToolTip": "Views\\Product\\Details.cshtml",
+              "ViewState": "AgIAAOQAAAAAAAAAAAAAAP0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-28T13:30:45.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "PageNotFound.cshtml",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Views\\Home\\PageNotFound.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\PageNotFound.cshtml",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Views\\Home\\PageNotFound.cshtml",
+              "RelativeToolTip": "Views\\Home\\PageNotFound.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAwwB0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-28T13:30:45.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAwwG4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-28T13:30:45.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "SignUp.cshtml",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Views\\Customer\\SignUp.cshtml",
+              "RelativeDocumentMoniker": "Views\\Customer\\SignUp.cshtml",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Views\\Customer\\SignUp.cshtml",
+              "RelativeToolTip": "Views\\Customer\\SignUp.cshtml",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAwwIkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-28T13:30:45.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ResetPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Views\\Customer\\ResetPassword.cshtml",
+              "RelativeDocumentMoniker": "Views\\Customer\\ResetPassword.cshtml",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Views\\Customer\\ResetPassword.cshtml",
+              "RelativeToolTip": "Views\\Customer\\ResetPassword.cshtml",
+              "ViewState": "AgIAACsAAAAAAAAAAAAuwEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-28T13:30:45.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Views\\Customer\\Profile.cshtml",
+              "RelativeDocumentMoniker": "Views\\Customer\\Profile.cshtml",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Views\\Customer\\Profile.cshtml",
+              "RelativeToolTip": "Views\\Customer\\Profile.cshtml",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAwwJwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-28T13:30:45.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Views\\Contact\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Contact\\Index.cshtml",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Views\\Contact\\Index.cshtml",
+              "RelativeToolTip": "Views\\Contact\\Index.cshtml",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAuwIMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-28T13:30:45.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Views\\Shared\\Components\\User\\Default.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Shared\\Components\\User\\Default.cshtml",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Views\\Shared\\Components\\User\\Default.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Shared\\Components\\User\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-28T13:30:45.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "_LayoutAdmin.cshtml",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ViewState": "AgIAAL8AAAAAAAAAAAAwwNoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-28T13:30:45.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Views\\ProductAdmin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\ProductAdmin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Views\\ProductAdmin\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\ProductAdmin\\Index.cshtml",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAHQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-28T13:30:45.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Views\\ProductAdmin\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\ProductAdmin\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Views\\ProductAdmin\\Edit.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\ProductAdmin\\Edit.cshtml",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAwwG4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-28T13:30:45.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Views\\ProductAdmin\\Details.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\ProductAdmin\\Details.cshtml",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Views\\ProductAdmin\\Details.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\ProductAdmin\\Details.cshtml",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAAAHIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-28T13:30:45.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Views\\ProductAdmin\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\ProductAdmin\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Views\\ProductAdmin\\Delete.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\ProductAdmin\\Delete.cshtml",
+              "ViewState": "AgIAAGcAAAAAAAAAAADwv4EAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-28T13:30:45.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Views\\ProductAdmin\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\ProductAdmin\\Create.cshtml",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Views\\ProductAdmin\\Create.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\ProductAdmin\\Create.cshtml",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAwwGYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-28T13:30:45.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Views\\MenuAdmin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\MenuAdmin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Views\\MenuAdmin\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\MenuAdmin\\Index.cshtml",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAAAJwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-28T13:30:45.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Views\\MenuAdmin\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\MenuAdmin\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Views\\MenuAdmin\\Edit.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\MenuAdmin\\Edit.cshtml",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAAAGoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-28T13:30:45.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Views\\MenuAdmin\\Details.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\MenuAdmin\\Details.cshtml",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Views\\MenuAdmin\\Details.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\MenuAdmin\\Details.cshtml",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAA0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-28T13:30:45.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Views\\CustomerAdmin\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\CustomerAdmin\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Views\\CustomerAdmin\\Edit.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\CustomerAdmin\\Edit.cshtml",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAAAJUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-28T13:30:45.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Views\\MenuAdmin\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\MenuAdmin\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Views\\MenuAdmin\\Delete.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\MenuAdmin\\Delete.cshtml",
+              "ViewState": "AgIAAEYAAAAAAAAAAADwv18AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-28T13:30:45.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Views\\MenuAdmin\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\MenuAdmin\\Create.cshtml",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Views\\MenuAdmin\\Create.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\MenuAdmin\\Create.cshtml",
+              "ViewState": "AgIAADcAAAAAAAAAAAAuwFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-28T13:30:45.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAAALMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-28T13:30:45.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Views\\CustomerAdmin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\CustomerAdmin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Views\\CustomerAdmin\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\CustomerAdmin\\Index.cshtml",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAAAH4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-28T13:30:45.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Views\\CustomerAdmin\\Details.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\CustomerAdmin\\Details.cshtml",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Views\\CustomerAdmin\\Details.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\CustomerAdmin\\Details.cshtml",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAAAH4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-28T13:30:45.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Views\\ContactAdmin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\ContactAdmin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Views\\ContactAdmin\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\ContactAdmin\\Index.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAwwGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-28T13:30:45.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Views\\CategoryAdmin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\CategoryAdmin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Views\\CategoryAdmin\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\CategoryAdmin\\Index.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-28T13:30:45.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Views\\CategoryAdmin\\Details.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\CategoryAdmin\\Details.cshtml",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Views\\CategoryAdmin\\Details.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\CategoryAdmin\\Details.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAwwFoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-28T13:30:45.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Views\\CategoryAdmin\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\CategoryAdmin\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Views\\CategoryAdmin\\Delete.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\CategoryAdmin\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-28T13:30:45.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Views\\CategoryAdmin\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\CategoryAdmin\\Create.cshtml",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Views\\CategoryAdmin\\Create.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\CategoryAdmin\\Create.cshtml",
+              "ViewState": "AgIAADoAAAAAAAAAAAAwwFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-28T13:30:45.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "SignUp.cs",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Models\\SignUp.cs",
+              "RelativeDocumentMoniker": "Models\\SignUp.cs",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Models\\SignUp.cs",
+              "RelativeToolTip": "Models\\SignUp.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAkwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T13:30:45.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "SignIn.cs",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Models\\SignIn.cs",
+              "RelativeDocumentMoniker": "Models\\SignIn.cs",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Models\\SignIn.cs",
+              "RelativeToolTip": "Models\\SignIn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T13:30:45.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "ReviewViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Models\\ReviewViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ReviewViewModel.cs",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Models\\ReviewViewModel.cs",
+              "RelativeToolTip": "Models\\ReviewViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T13:30:45.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "Profile.cs",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Models\\Profile.cs",
+              "RelativeDocumentMoniker": "Models\\Profile.cs",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Models\\Profile.cs",
+              "RelativeToolTip": "Models\\Profile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T13:30:45.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "ProductViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Models\\ProductViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ProductViewModel.cs",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Models\\ProductViewModel.cs",
+              "RelativeToolTip": "Models\\ProductViewModel.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAIwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T13:30:45.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "NavbarItem.cs",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Models\\NavbarItem.cs",
+              "RelativeDocumentMoniker": "Models\\NavbarItem.cs",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Models\\NavbarItem.cs",
+              "RelativeToolTip": "Models\\NavbarItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T13:30:45.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "MyConst.cs",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Models\\MyConst.cs",
+              "RelativeDocumentMoniker": "Models\\MyConst.cs",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Models\\MyConst.cs",
+              "RelativeToolTip": "Models\\MyConst.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T13:30:45.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "CustomerNewPassword.cs",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Models\\CustomerNewPassword.cs",
+              "RelativeDocumentMoniker": "Models\\CustomerNewPassword.cs",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Models\\CustomerNewPassword.cs",
+              "RelativeToolTip": "Models\\CustomerNewPassword.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T13:30:45.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "CustomerForgotPassword.cs",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Models\\CustomerForgotPassword.cs",
+              "RelativeDocumentMoniker": "Models\\CustomerForgotPassword.cs",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Models\\CustomerForgotPassword.cs",
+              "RelativeToolTip": "Models\\CustomerForgotPassword.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T13:30:45.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "CartModal.cs",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Models\\CartModal.cs",
+              "RelativeDocumentMoniker": "Models\\CartModal.cs",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Models\\CartModal.cs",
+              "RelativeToolTip": "Models\\CartModal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T13:30:45.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "CategoryMenu.cs",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Models\\CategoryMenu.cs",
+              "RelativeDocumentMoniker": "Models\\CategoryMenu.cs",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Models\\CategoryMenu.cs",
+              "RelativeToolTip": "Models\\CategoryMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T13:30:45.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "Models\\CartItem.cs",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Models\\CartItem.cs",
+              "RelativeToolTip": "Models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T13:30:45.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "Dashboard.cs",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Models\\Dashboard.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Models\\Dashboard.cs",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Models\\Dashboard.cs",
+              "RelativeToolTip": "Areas\\Admin\\Models\\Dashboard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T13:30:45.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Data\\Menu.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Data\\Menu.cs",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Data\\Menu.cs",
+              "RelativeToolTip": "Areas\\Admin\\Data\\Menu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T13:30:45.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Data\\Category.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Data\\Category.cs",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Data\\Category.cs",
+              "RelativeToolTip": "Areas\\Admin\\Data\\Category.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T13:30:45.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "SessionExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Helper\\SessionExtensions.cs",
+              "RelativeDocumentMoniker": "Helper\\SessionExtensions.cs",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Helper\\SessionExtensions.cs",
+              "RelativeToolTip": "Helper\\SessionExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T13:30:45.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\wwwroot\\css\\style.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\style.css",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\wwwroot\\css\\style.css",
+              "RelativeToolTip": "wwwroot\\css\\style.css",
+              "ViewState": "AgIAAJQBAAAAAAAAAAAqwPIBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-28T13:30:45.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "best-product-5.jpg",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\wwwroot\\img\\best-product-5.jpg",
+              "RelativeDocumentMoniker": "wwwroot\\img\\best-product-5.jpg",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\wwwroot\\img\\best-product-5.jpg",
+              "RelativeToolTip": "wwwroot\\img\\best-product-5.jpg",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-12-28T13:30:45.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "main.js",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\wwwroot\\js\\main.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\main.js",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\wwwroot\\js\\main.js",
+              "RelativeToolTip": "wwwroot\\js\\main.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-12-28T13:30:45.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "owl.carousel.js",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
+              "RelativeDocumentMoniker": "wwwroot\\lib\\owlcarousel\\owl.carousel.js",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
+              "RelativeToolTip": "wwwroot\\lib\\owlcarousel\\owl.carousel.js",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-12-28T13:30:45.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "readme.txt",
+              "DocumentMoniker": "C:\\Users\\Rong di bo\\.nuget\\packages\\epplus\\7.5.2\\readme.txt",
+              "RelativeDocumentMoniker": "..\\..\\..\\Rong di bo\\.nuget\\packages\\epplus\\7.5.2\\readme.txt",
+              "ToolTip": "C:\\Users\\Rong di bo\\.nuget\\packages\\epplus\\7.5.2\\readme.txt",
+              "RelativeToolTip": "..\\..\\..\\Rong di bo\\.nuget\\packages\\epplus\\7.5.2\\readme.txt",
+              "ViewState": "AgIAABkAAAAAAAAAAABBwCsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-12-31T21:15:29.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-28T13:30:45.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "PasswordHelper.cs",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Helper\\PasswordHelper.cs",
+              "RelativeDocumentMoniker": "Helper\\PasswordHelper.cs",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Helper\\PasswordHelper.cs",
+              "RelativeToolTip": "Helper\\PasswordHelper.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAawBQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T13:30:45.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "ImageHelper.cs",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Helper\\ImageHelper.cs",
+              "RelativeDocumentMoniker": "Helper\\ImageHelper.cs",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Helper\\ImageHelper.cs",
+              "RelativeToolTip": "Helper\\ImageHelper.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T13:30:45.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Helper\\EmailService.cs",
+              "RelativeDocumentMoniker": "Helper\\EmailService.cs",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\Helper\\EmailService.cs",
+              "RelativeToolTip": "Helper\\EmailService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAowDUAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T13:30:45.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "emailTemplate.htm",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\wwwroot\\Template\\emailTemplate.htm",
+              "RelativeDocumentMoniker": "wwwroot\\Template\\emailTemplate.htm",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\wwwroot\\Template\\emailTemplate.htm",
+              "RelativeToolTip": "wwwroot\\Template\\emailTemplate.htm",
+              "ViewState": "AgIAAAEBAAAAAAAAAAAowFECAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-12-28T13:30:45.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\huyph\\Downloads\\WebBanSanPhamCongNghe\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-28T13:30:45.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\Allcode\\BaiTapLonWeb\\wwwroot\\Template\\index.html",
+              "ToolTip": "D:\\Allcode\\BaiTapLonWeb\\wwwroot\\Template\\index.html",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-12-17T16:26:20.999Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

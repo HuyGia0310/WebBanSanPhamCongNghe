@@ -1,0 +1,29 @@
+﻿@model IEnumerable<WebBanSanPhamCongNghe.Models.ProductViewModel>
+
+@foreach (var item in Model)
+{
+    <a asp-controller="Product" asp-action="Details" asp-route-id="@item.Id">
+        <div class="d-flex align-items-center justify-content-start">
+            <div class="rounded me-4" style="width: 100px; height: 100px">
+                <img src="~/Images/Product/@item.Img" class="img-fluid rounded" alt=""
+                     style="width: 90px; height: 50px; object-fit:contain" />
+            </div>
+            <div>
+                <h6 class="mb-2">@item.Title</h6>
+                <!-- Rating Start -->
+                <div class="d-flex mb-2">
+                    <span class="fw-bold text-black">@item.Rate?.ToString("F1")</span>
+                    <i class="fa fa-star text-secondary"></i>
+                </div>
+                <!-- Rating End -->
+                <div class="d-flex mb-2">
+                    <h6 class="fw-bold me-2">@item.Price?.ToString("#,##0 VND")</h6>
+                </div>
+            </div>
+        </div>
+    </a>
+}
+<div class="d-flex justify-content-center my-4">
+    <a asp-controller="Product" asp-action="Index" asp-route-sort="rate_desc"
+       class="btn border border-secondary px-4 py-3 rounded-pill text-primary w-100">View More</a>
+</div>

@@ -1,0 +1,104 @@
+﻿@model IEnumerable<WebBanSanPhamCongNghe.Areas.Admin.Data.Payment>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<!--begin::App Content Header-->
+<div class="app-content-header">
+    <!--begin::Container-->
+    <div class="container-fluid">
+        <!--begin::Row-->
+        <div class="row">
+            <div class="col-sm-6"><h3 class="mb-0">Payment</h3></div>
+        </div>
+        <!--end::Row-->
+    </div>
+    <!--end::Container-->
+</div>
+<!--end::App Content Header-->
+<!--begin::App Content-->
+<div class="app-content">
+    <!--begin::Container-->
+    <div class="container-fluid">
+        <!--begin::Row-->
+        <div class="row">
+            <div class="col-12">
+                <!--begin::Card-->
+                <div class="card card-primary card-outline">
+                    <!--begin::Header-->
+                    <div class="card-header bg-white">
+                        <div class="card-title">
+                            <h3>Payment List</h3>
+                        </div>
+                    </div>
+                    <!--end::Header-->
+                    <!--begin::Body-->
+                    <div class="card-body">
+                        <table id="myTable" class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.Cart.Customer.FirstName)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.Cart.Customer.LastName)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.Cart.Customer.Phone)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.Cart.Customer.Email)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.CreateAt)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.Total)
+                                    </th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Cart.Customer.FirstName)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Cart.Customer.LastName)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Cart.Customer.Phone)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Cart.Customer.Email)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.CreateAt)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Total)
+                                        </td>
+                                        <td>
+                                            <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary btn-sm">Details</a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                    <!--end::Body-->
+                </div>
+                <!--end::Card-->
+            </div>
+        </div>
+        <!--end::Row-->
+    </div>
+    <!--end::Container-->
+</div>
+<!--end::App Content-->
+
+
+

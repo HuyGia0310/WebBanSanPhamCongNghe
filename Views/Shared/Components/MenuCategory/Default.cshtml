@@ -1,0 +1,16 @@
+﻿@model IEnumerable<WebBanSanPhamCongNghe.Models.CategoryMenu>
+
+<ul class="list-unstyled fruite-categorie">
+    @foreach(var item in Model)
+    {
+        <li>
+            <div class="d-flex justify-content-between fruite-name">
+                <a asp-controller="Product" asp-action="Index" 
+                   asp-route-idCategory="@item.Id"
+                   asp-route-search="@ViewData["Search"]"
+                   asp-route-sort="@ViewData["Sort"]"><i class="fas fa-apple-alt me-2"></i>@item.Title</a>
+                <span>(@item.Count)</span>
+            </div>
+        </li>
+    }
+</ul>

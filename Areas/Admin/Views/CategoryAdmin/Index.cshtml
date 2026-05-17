@@ -1,0 +1,89 @@
+﻿@model IEnumerable<WebBanSanPhamCongNghe.Areas.Admin.Data.Category>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<!--begin::App Content Header-->
+<div class="app-content-header">
+    <!--begin::Container-->
+    <div class="container-fluid">
+        <!--begin::Row-->
+        <div class="row">
+            <div class="col-sm-6"><h3 class="mb-0">Category</h3></div>
+        </div>
+        <!--end::Row-->
+    </div>
+    <!--end::Container-->
+</div>
+<!--end::App Content Header-->
+<!--begin::App Content-->
+<div class="app-content">
+    <!--begin::Container-->
+    <div class="container-fluid">
+        <!--begin::Row-->
+        <div class="row">
+            <div class="col-12">
+                <!--begin::Card-->
+                <div class="card card-primary card-outline">
+                    <!--begin::Header-->
+                    <div class="card-header bg-white">
+                        <div class="card-title">
+                            <h3>Category List</h3>
+                        </div>
+                        <a asp-action="Create" class="btn btn-success float-end">Create New</a>
+                    </div>
+                    <!--end::Header-->
+                    <!--begin::Body-->
+                    <div class="card-body">
+                        <table id="myTable" class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.Title)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.Content)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.Img)
+                                    </th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Title)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Content)
+                                        </td>
+                                        <td>
+                                            <img src="~/Images/Product/@item.Img" class="img-fluid rounded"
+                                                 alt="Image"
+                                                 width="300" height="300"
+                                                 object-fit: cover;>
+                                        </td>
+                                        <td>
+                                            <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Edit</a>
+                                            <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary btn-sm">Details</a>
+                                            <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Delete</a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                    <!--end::Body-->
+                </div>
+                <!--end::Card-->
+            </div>
+        </div>
+        <!--end::Row-->
+    </div>
+    <!--end::Container-->
+</div>
+<!--end::App Content-->

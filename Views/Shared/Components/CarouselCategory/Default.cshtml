@@ -1,0 +1,39 @@
+﻿@model IEnumerable<WebBanSanPhamCongNghe.Areas.Admin.Data.Category>
+
+@{
+    bool isFirst = true;
+}
+
+<div id="carouselId" class="carousel slide position-relative" data-bs-ride="carousel">
+    <div class="carousel-inner" role="listbox">
+        @foreach (var item in Model) 
+        {
+             <div class="carousel-item  @(isFirst ? "active" : "") rounded">
+                <img src="~/Images/Category/@item.Img"
+                     class="img-fluid rounded w-100"
+                     alt="Second slide" 
+                     style="height:288px;"/>
+                <a asp-controller="Product" asp-action="Index"
+                   asp-route-idCategory="@item.Id" class="btn px-4 py-2 text-white rounded">@item.Title</a>
+            </div>
+            @if (isFirst) 
+            {
+                isFirst = false;
+            }
+        } 
+    </div>
+    <button class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselId"
+            data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselId"
+            data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>

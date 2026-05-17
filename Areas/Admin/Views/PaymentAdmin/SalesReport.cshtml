@@ -1,0 +1,55 @@
+﻿@{
+    ViewData["Title"] = "Báo Cáo Doanh Thu";
+    var dates = ViewData["Dates"] as List<string>;
+    var revenue = ViewData["Revenue"] as List<double>;
+    var startDate = (DateTime)ViewData["StartDate"];
+    var endDate = (DateTime)ViewData["EndDate"];
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<!-- Form để chọn khoảng thời gian -->
+<form method="get" action="@Url.Action("SalesReport", "Payment", new { area = "Admin" })">
+    <label for="startDate">Từ Ngày:</label>
+    <input type="date" id="startDate" name="startDate" value="@startDate.ToString("yyyy-MM-dd")" />
+    <label for="endDate">Đến Ngày:</label>
+    <input type="date" id="endDate" name="endDate" value="@endDate.ToString("yyyy-MM-dd")" />
+    <button type="submit">Lọc</button>
+</form>
+
+<!-- Nút xuất báo cáo Excel -->
+<a href="@Url.Action("ExportSalesReport", "Payment", new { area = "Admin", startDate = startDate, endDate = endDate })" class="btn btn-success">Xuất Excel</a>
+
+<canvas id="salesChart" width="400" height="200"></canvas>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script>
+        var ctx = document.getElementById('salesChart').getContext('2d');
+        var salesChart = new Chart(ctx, {
+            type: 'line', // Loại biểu đồ (line, bar, etc.)
+            data: {
+                labels: @Html.Raw(Json.Serialize(dates)), // Các ngày trong khoảng thời gian
+                datasets: [{
+                    label: 'Doanh Thu',
+                    data: @Html.Raw(Json.Serialize(revenue)), // Dữ liệu doanh thu
+                    borderColor: 'rgb(75, 192, 192)',
+                    fill: false
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    x: {
+                        beginAtZero: true
+                    },
+                    y: {
+                        ticks: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+    </script>
+}

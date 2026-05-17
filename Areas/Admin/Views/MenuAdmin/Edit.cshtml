@@ -1,0 +1,106 @@
+﻿@model WebBanSanPhamCongNghe.Areas.Admin.Data.Menu
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<!--begin::App Content Header-->
+<div class="app-content-header">
+    <!--begin::Container-->
+    <div class="container-fluid">
+        <!--begin::Row-->
+        <div class="row">
+            <div class="col-sm-6"><h3 class="mb-0">Menu</h3></div>
+        </div>
+        <!--end::Row-->
+    </div>
+    <!--end::Container-->
+</div>
+<!--end::App Content Header-->
+<!--begin::App Content-->
+<div class="app-content">
+    <!--begin::Container-->
+    <div class="container-fluid">
+        <!--begin::Row-->
+        <div class="row">
+            <div class="col-12">
+                <!--begin::Card-->
+                <div class="card card-warning card-outline">
+                    <!--begin::Header-->
+                    <div class="card-header">
+                        <div class="card-title">
+                            <h3>Edit</h3>
+                        </div>
+                    </div>
+                    <!--end::Header-->
+                    <!--begin::Form-->
+                    <form asp-action="Edit">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <input type="hidden" asp-for="Id" />
+                        <input type="hidden" asp-for="ParentId" />
+                        <!--begin::Body-->
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <div class="form-group">
+                                    <label asp-for="Title" class="control-label"></label>
+                                    <input asp-for="Title" class="form-control" />
+                                    <span asp-validation-for="Title" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <div class="form-group">
+                                    <label asp-for="MenuUrl" class="control-label"></label>
+                                    <input asp-for="MenuUrl" class="form-control" />
+                                    <span asp-validation-for="MenuUrl" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <div class="form-group">
+                                    <label asp-for="MenuIndex" class="control-label"></label>
+                                    <select asp-for="MenuIndex" asp-items="ViewBag.MenuIndexList" class="form-control"></select>
+                                    <span asp-validation-for="MenuIndex" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <div class="form-group">
+                                    <label asp-for="IsVisible" class="control-label"></label>
+                                    <div>
+                                        <div class="form-check">
+                                            <label class="form-check-label" for="Visible">Visible</label>
+                                            <input id="Visible" name="IsVisible" type="radio" class="form-check-input" value="true" @((bool)Model.IsVisible ? "checked" : "") />
+                                        </div>
+                                        <div class="form-check">
+                                            <label class="form-check-label" for="Invisible">Invisible</label>
+                                            <input id="Invisible" name="IsVisible" type="radio" class="form-check-input" value="false" @((bool)Model.IsVisible ? "" : "checked") />
+                                        </div>
+                                    </div>
+                                    <span asp-validation-for="IsVisible" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end::Body-->
+                        <!--begin::Footer-->
+                        <div class="card-footer">
+                            <div class="form-group">
+                                <input type="submit" value="Save" class="btn btn-warning" />
+                                <a class="btn btn-primary float-end" asp-action="Index">Back to List</a>
+                            </div>
+                        </div>
+                        <!--end::Footer-->
+                    </form>
+                    <!--end::Form-->
+                </div>
+                <!--end::Card-->
+            </div>
+        </div>
+        <!--end::Row-->
+    </div>
+    <!--end::Container-->
+</div>
+<!--end::App Content-->
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+
+

@@ -1,0 +1,253 @@
+﻿@model WebBanSanPhamCongNghe.Models.ProductViewModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<!-- Single Page Header start -->
+<div class="container-fluid page-header py-5">
+    <h1 class="text-center text-white display-6">Shop Detail</h1>
+    <ol class="breadcrumb justify-content-center mb-0">
+        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <li class="breadcrumb-item"><a href="#">Pages</a></li>
+        <li class="breadcrumb-item active text-white">Shop Detail</li>
+    </ol>
+</div>
+<!-- Single Page Header End -->
+<!-- Single Product Start -->
+<div class="container-fluid py-5 mt-5">
+    <div class="container py-5">
+        <!-- Alert Success Start -->
+        @if (!string.IsNullOrWhiteSpace(TempData["Success"]?.ToString()))
+        {
+            <div class="w-100 alert alert-success alert-dismissible fade show r-0 mr-5" role="alert" id="alert_message">
+                <strong>Success!</strong>
+                @TempData["Success"]?.ToString()
+                <button type="button" class="btn-close" data-dismiss="alert"
+                        aria-label="Close">
+                </button>
+            </div>
+        }
+        <!-- Alert Success End -->
+        <!-- Alert Error Start -->
+        @if (!string.IsNullOrWhiteSpace(TempData["Error"]?.ToString()))
+        {
+            <div class="w-100 alert alert-danger alert-dismissible fade show r-0 mr-5" role="alert" id="alert_message">
+                <strong>Error!</strong>
+                @TempData["Error"]?.ToString()
+                <button type="button" class="btn-close" data-dismiss="alert"
+                        aria-label="Close">
+                </button>
+            </div>
+        }
+        <!-- Alert Error End -->
+        <div class="row g-4 mb-5">
+            <!-- Product Detail Start -->
+            <div class="col-lg-8 col-xl-9">
+                <div class="row g-4">
+                    <div class="col-lg-6">
+                        <div class="border rounded">
+                            <a href="#">
+                                <img src="~/Images/Product/@Model.Img" class="img-fluid rounded" alt="Image" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <!-- Text Start -->
+                        <input asp-for="Id" type="hidden"/>
+                        <h4 class="fw-bold mb-3">@Model.Title</h4>
+                        <p class="mb-3">Category: @Model.CategoryTitle</p>
+                        <h5 class="fw-bold mb-3">@Model.Price?.ToString("#,##0 VND")</h5>
+                        <!-- Text End -->
+                        <!-- Rating Start -->
+                        <div class="d-flex mb-2">
+                            <span class="fw-bold">@Model.Rate?.ToString("F1")</span>
+                            <i class="fa fa-star text-secondary"></i>
+                        </div>                        
+                        <!-- Rating End -->
+                        <p class="mb-4">
+                            @Model.Content
+                        </p>
+                        <button onclick="clickAddToCart(@Model.Id)" class="btn border border-secondary rounded-pill px-3 text-primary">
+                            <i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart
+                        </button>
+                    </div>
+                    <div class="col-lg-12">
+                        <nav>
+                            <div class="nav nav-tabs mb-3">
+                                <button class="nav-link active border-white border-bottom-0"
+                                        type="button"
+                                        role="tab"
+                                        id="nav-about-tab"
+                                        data-bs-toggle="tab"
+                                        data-bs-target="#nav-about"
+                                        aria-controls="nav-about"
+                                        aria-selected="true">
+                                    Description
+                                </button>
+                                <button class="nav-link border-white border-bottom-0"
+                                        type="button"
+                                        role="tab"
+                                        id="nav-mission-tab"
+                                        data-bs-toggle="tab"
+                                        data-bs-target="#nav-mission"
+                                        aria-controls="nav-mission"
+                                        aria-selected="false">
+                                    Reviews
+                                </button>
+                            </div>
+                        </nav>
+                        <div class="tab-content mb-5">
+                            <!-- Description Start-->
+                            <div class="tab-pane active"
+                                 id="nav-about"
+                                 role="tabpanel"
+                                 aria-labelledby="nav-about-tab"
+                                 style="height: 400px; overflow: auto;">
+                                <p>
+                                    @Model.Content
+                                </p>
+                            </div>
+                            <!-- Description End-->
+                            <div class="tab-pane"
+                                 id="nav-mission"
+                                 role="tabpanel"
+                                 aria-labelledby="nav-mission-tab"
+                                 style="height: 400px; overflow: auto;">
+                                @if(Model.ReviewList != null)
+                                {
+                                    foreach(var item in Model.ReviewList)
+                                    {
+                                        <div class="d-flex mx-2">
+                                            <img src="~/Images/Customer/@item.Customer.Img"
+                                                 class="img-fluid rounded-circle p-3"
+                                                 style="width: 100px; height: 100px"
+                                                 alt="" />
+                                            <div class="">
+                                                <p class="mb-2" style="font-size: 14px">@item.CreateAt</p>
+                                                <div class="d-flex justify-content-between">
+                                                    <h5>@item.Customer.FirstName @item.Customer.LastName</h5>
+                                                    <div class="d-flex mb-3">
+                                                        <h5>@item.Rate</h5>
+                                                        <i class="fa fa-star text-secondary"></i>
+                                                    </div>
+                                                </div>
+                                                <p>
+                                                    @item.Message
+                                                </p>
+                                            </div>
+                                        </div>
+                                    }
+                                } 
+                                else
+                                {
+                                    <p>Sản Phẩm Này Không Có Đánh Giá.</p>
+                                }
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <h5>Viết Đánh Giá:</h5>
+                            <!-- Review Form Start -->
+                            <form asp-action="SubmitReviewForm" method="post">
+                                <input type="hidden" name="ProductId" value="@Model.Id"/>
+                                <div class="d-flex mb-3 w-100">
+                                    <label for="Rate" class="form-label py-auto pe-2">Đánh giá:</label>
+                                    <select name="Rate" class="form-select" required style="width: 100px">
+                                        <option value="1">1 Sao</option>
+                                        <option value="2">2 Sao</option>
+                                        <option value="3">3 Sao</option>
+                                        <option value="4">4 Sao</option>
+                                        <option value="5">5 Sao</option>
+                                    </select>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="Message" class="form-label">Nhận xét:</label>
+                                    <textarea name="Message" class="form-control" rows="4" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary text-white">Gửi đánh giá</button>
+                            </form>
+                            <!-- Review Form End -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Product Detail End -->
+            <!-- Right Panel Start -->
+            <div class="col-lg-4 col-xl-3">
+                <div class="row g-4 fruite">
+                    <div class="col-lg-12">
+                        <!-- Search Start -->
+                        <div class="input-group w-100 mx-auto d-flex mb-4">
+                            <input type="search"
+                                   class="form-control p-3"
+                                   placeholder="keywords"
+                                   aria-describedby="search-icon-1" />
+                            <span id="search-icon-1" class="input-group-text p-3">
+                                <i class="fa fa-search"></i>
+                            </span>
+                        </div>
+                        <!-- Search End -->
+                        <!-- Categories Start -->
+                        <div class="mb-4">
+                            <h4>Categories</h4>
+                            @await Component.InvokeAsync("MenuCategory")
+                        </div>
+                        <!-- Categories End -->
+                    </div>
+
+                    <!-- Featured products Start -->
+                    <div class="col-lg-12">
+                        <h4 class="mb-4">Featured products</h4>
+                        @await Component.InvokeAsync("FeaturedProducts",new { limit= 5})
+                    </div>
+                    <!-- Featured products End -->
+                </div>
+            </div>
+        </div>
+        <!-- Right Panel End -->
+        <!-- Related products Start -->
+        @await Component.InvokeAsync("RelatedProduct", new { id = Model.Id })
+        <!-- Related products End -->
+    </div>
+</div>
+<!-- Single Product End -->
+
+ <script>
+    // ------------- Auto Close Alert Start----------------
+    const alert_error = document.getElementById("alert_message")
+    window.setTimeout(function () {
+        $(".alert").fadeTo(500, 0).slideUp(500, function () {
+            $(this).remove();
+        });
+    }, 2000);
+    // ------------- Auto Close Alert End----------------
+
+    // --------------- AJAX thêm vào giỏ hàng -------------------
+     function clickAddToCart(idProduct) {
+         $.ajax({
+             url: '@Url.Action("AddToCart", "Cart")',
+             data: { id: idProduct },
+             success: function (data) {
+                 //Load lại Cart ViewComponent
+                 $.ajax({
+                     url: '@Url.Action("RefreshCartViewComponent", "Cart")',
+                     success: function (data) {
+                         console.log(data)
+                         $("#cart_view_component").html(data);
+                     },
+                     error: function (xhr, ajaxOptions, thrownError) {
+                         console.log(thrownError)
+                         alert("Error updating Cart ViewComponent.");
+                     }
+                 });
+
+                 // // Hiển thị thông báo thêm thành công
+                 $("#modalAddToCartSuccess").modal('show');
+             },
+             error: function (xhr, ajaxOptions, thrownError) {
+                 //some errror, some show err msg to user and log the error
+                 alert(xhr.responseText);
+             }
+         });
+     }
+</script>

@@ -1,0 +1,111 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!-- Hero Start -->
+<div class="container-fluid py-5 mb-5 hero-header">
+    <div class="container py-5">
+        <div class="row g-5 align-items-center">
+            <div class="col-md-12 col-lg-7">
+                <h4 class="mb-3 text-secondary">My Shop</h4>
+                <h1 class="mb-5 display-3 text-primary">Sản Phẩm Công Nghệ</h1>
+            </div>
+            <div class="col-md-12 col-lg-5">
+                @await Component.InvokeAsync("CarouselCategory")
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Hero End -->
+<!-- Featurs Section Start -->
+<div class="container-fluid featurs py-5">
+    <div class="container py-5">
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-3">
+                <div class="featurs-item text-center rounded bg-light p-4">
+                    <div class="featurs-icon btn-square rounded-circle bg-secondary mb-5 mx-auto">
+                        <i class="fas fa-car-side fa-3x text-white"></i>
+                    </div>
+                    <div class="featurs-content text-center">
+                        <h5>Free Shipping</h5>
+                        <p class="mb-0">Free on order over $300</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="featurs-item text-center rounded bg-light p-4">
+                    <div class="featurs-icon btn-square rounded-circle bg-secondary mb-5 mx-auto">
+                        <i class="fas fa-user-shield fa-3x text-white"></i>
+                    </div>
+                    <div class="featurs-content text-center">
+                        <h5>Security Payment</h5>
+                        <p class="mb-0">100% security payment</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="featurs-item text-center rounded bg-light p-4">
+                    <div class="featurs-icon btn-square rounded-circle bg-secondary mb-5 mx-auto">
+                        <i class="fas fa-exchange-alt fa-3x text-white"></i>
+                    </div>
+                    <div class="featurs-content text-center">
+                        <h5>30 Day Return</h5>
+                        <p class="mb-0">30 day money guarantee</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="featurs-item text-center rounded bg-light p-4">
+                    <div class="featurs-icon btn-square rounded-circle bg-secondary mb-5 mx-auto">
+                        <i class="fa fa-phone-alt fa-3x text-white"></i>
+                    </div>
+                    <div class="featurs-content text-center">
+                        <h5>24/7 Support</h5>
+                        <p class="mb-0">Support every time fast</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Featurs Section End -->
+<!-- Bestsaler Product Start -->
+<div class="container-fluid py-5">
+    <div class="container py-5">
+        <div class="mx-auto mb-5">
+            @await Component.InvokeAsync("BestsellerProduct")
+        </div>
+    </div>
+</div>
+<!-- Bestsaler Product End -->
+
+<script>
+    // --------------- AJAX thêm vào giỏ hàng -------------------
+     function clickAddToCart(idProduct) {
+         $.ajax({
+             url: '@Url.Action("AddToCart", "Cart")',
+             data: { id: idProduct },
+             success: function (data) {
+                 //Load lại Cart ViewComponent
+                 $.ajax({
+                     url: '@Url.Action("RefreshCartViewComponent", "Cart")',
+                     success: function (data) {
+                         console.log(data)
+                         $("#cart_view_component").html(data);
+                     },
+                     error: function (xhr, ajaxOptions, thrownError) {
+                         console.log(thrownError)
+                         alert("Error updating Cart ViewComponent.");
+                     }
+                 });
+
+                 // // Hiển thị thông báo thêm thành công
+                 $("#modalAddToCartSuccess").modal('show');
+             },
+             error: function (xhr, ajaxOptions, thrownError) {
+                 //some errror, some show err msg to user and log the error
+                 alert(xhr.responseText);
+             }
+         });
+     }
+</script>
