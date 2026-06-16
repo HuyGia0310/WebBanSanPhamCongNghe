@@ -62,6 +62,28 @@ namespace WebBanSanPhamCongNghe.Controllers
                 return Redirect("/404");
             }
         }
+
+        [Authorize]
+        public async Task<IActionResult> OrderHistory()
+        {
+            string? customerIdStr = HttpContext.User.FindFirstValue("CustomerId");
+            if (string.IsNullOrWhiteSpace(customerIdStr))
+            {
+                return RedirectToAction("SignIn");
+            }
+
+            int customerId = Convert.ToInt32(customerIdStr);
+
+            var payments = await _context.Payments
+                .AsNoTracking()
+                .Include(p => p.Cart)
+                .Where(p => p.Cart != null && p.Cart.CustomerId == customerId)
+                .OrderByDescending(p => p.CreateAt)
+                .ToListAsync();
+
+            return View(payments);
+        }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> UpdateDetailCustomer(Profile customer, IFormFile? ImgUpload)

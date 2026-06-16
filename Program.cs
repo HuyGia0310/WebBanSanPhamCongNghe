@@ -1,7 +1,8 @@
-﻿using WebBanSanPhamCongNghe.Areas.Admin.Data;
-using WebBanSanPhamCongNghe.Helper;
 using Microsoft.AspNetCore.Authentication.Cookies;
-
+using Microsoft.EntityFrameworkCore;
+using WebBanSanPhamCongNghe.Areas.Admin.Data;
+using WebBanSanPhamCongNghe.Helper;
+using WebBanSanPhamCongNghe.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -33,6 +34,23 @@ builder.Services.AddSession(options =>
 });
 
 var app = builder.Build();
+
+using (var scope = app.Services.CreateScope())
+{
+    var dbContext = scope.ServiceProvider.GetRequiredService<MyShopContext>();
+
+    await dbContext.Database.ExecuteSqlRawAsync($@"
+IF COL_LENGTH('dbo.payment', 'status') IS NULL
+BEGIN
+    ALTER TABLE [dbo].[payment]
+    ADD [status] NVARCHAR(50) NOT NULL CONSTRAINT [DF_payment_status] DEFAULT (N'{MyConst.PAYMENT_DEFAULT_STATUS}') WITH VALUES;
+END
+ELSE
+BEGIN
+    -- Sử dụng EXEC để bọc câu lệnh UPDATE lại thành một chuỗi văn bản
+    EXEC('UPDATE [dbo].[payment] SET [status] = N''{MyConst.PAYMENT_DEFAULT_STATUS}'' WHERE [status] IS NULL OR LTRIM(RTRIM([status])) = N''''');
+END");
+}
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

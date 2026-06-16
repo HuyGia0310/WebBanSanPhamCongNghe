@@ -10,7 +10,7 @@
         "dependencies": {
           "BlazorJS": "2.1.6",
           "EPPlus": "7.5.2",
-          "MailKit": "4.9.0",
+          "MailKit": "4.17.0",
           "Microsoft.EntityFrameworkCore": "9.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.0",
           "Microsoft.EntityFrameworkCore.Tools": "9.0.0",
@@ -65,11 +65,11 @@
           }
         }
       },
-      "BouncyCastle.Cryptography/2.5.0": {
+      "BouncyCastle.Cryptography/2.6.2": {
         "runtime": {
           "lib/net6.0/BouncyCastle.Cryptography.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.5.0.6119"
+            "fileVersion": "2.6.2.46322"
           }
         }
       },
@@ -647,15 +647,15 @@
           }
         }
       },
-      "MailKit/4.9.0": {
+      "MailKit/4.17.0": {
         "dependencies": {
-          "MimeKit": "4.9.0",
+          "MimeKit": "4.17.0",
           "System.Formats.Asn1": "9.0.0"
         },
         "runtime": {
           "lib/net8.0/MailKit.dll": {
-            "assemblyVersion": "4.9.0.0",
-            "fileVersion": "4.9.0.0"
+            "assemblyVersion": "4.17.0.0",
+            "fileVersion": "4.17.0.0"
           }
         }
       },
@@ -1770,16 +1770,15 @@
           }
         }
       },
-      "MimeKit/4.9.0": {
+      "MimeKit/4.17.0": {
         "dependencies": {
-          "BouncyCastle.Cryptography": "2.5.0",
-          "System.Formats.Asn1": "9.0.0",
+          "BouncyCastle.Cryptography": "2.6.2",
           "System.Security.Cryptography.Pkcs": "8.0.1"
         },
         "runtime": {
           "lib/net8.0/MimeKit.dll": {
-            "assemblyVersion": "4.9.0.0",
-            "fileVersion": "4.9.0.0"
+            "assemblyVersion": "4.17.0.0",
+            "fileVersion": "4.17.0.0"
           }
         }
       },
@@ -2218,12 +2217,12 @@
       "path": "blazorjs/2.1.6",
       "hashPath": "blazorjs.2.1.6.nupkg.sha512"
     },
-    "BouncyCastle.Cryptography/2.5.0": {
+    "BouncyCastle.Cryptography/2.6.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-rc7vRCq/KD3GtIwSgRtjanGaBwTb9nLenFDZnEcauWlssuuEoxcbMfWA3QWWho6QDMSOSkWjs657McdHzEtEcw==",
-      "path": "bouncycastle.cryptography/2.5.0",
-      "hashPath": "bouncycastle.cryptography.2.5.0.nupkg.sha512"
+      "sha512": "sha512-7oWOcvnntmMKNzDLsdxAYqApt+AjpRpP2CShjMfIa3umZ42UQMvH0tl1qAliYPNYO6vTdcGMqnRrCPmsfzTI1w==",
+      "path": "bouncycastle.cryptography/2.6.2",
+      "hashPath": "bouncycastle.cryptography.2.6.2.nupkg.sha512"
     },
     "EPPlus/7.5.2": {
       "type": "package",
@@ -2596,12 +2595,12 @@
       "path": "humanizer.core.zh-hant/2.14.1",
       "hashPath": "humanizer.core.zh-hant.2.14.1.nupkg.sha512"
     },
-    "MailKit/4.9.0": {
+    "MailKit/4.17.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-wRUVzYXRWbjdUixwtSp7ivVHPhWw17h+BvwIVaouBike68B56Xk9b5+QRT39EK/QN8XF7MtOgt9caHvUaCvhIQ==",
-      "path": "mailkit/4.9.0",
-      "hashPath": "mailkit.4.9.0.nupkg.sha512"
+      "sha512": "sha512-1nUAVLxM9fhT/78we6/AGsCesnpn5dRNLLeRqOfr52Wnk87pzVwo5YMTMyqnmoXrYc7piGhmayiMA/OgDluIjg==",
+      "path": "mailkit/4.17.0",
+      "hashPath": "mailkit.4.17.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authorization/8.0.1": {
       "type": "package",
@@ -3051,12 +3050,12 @@
       "path": "microsoft.win32.systemevents/8.0.0",
       "hashPath": "microsoft.win32.systemevents.8.0.0.nupkg.sha512"
     },
-    "MimeKit/4.9.0": {
+    "MimeKit/4.17.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-DZXXMZzmAABDxFhOSMb6SE8KKxcRd/sk1E6aJTUE5ys2FWOQhznYV2Gl3klaaSfqKn27hQ32haqquH1J8Z6kJw==",
-      "path": "mimekit/4.9.0",
-      "hashPath": "mimekit.4.9.0.nupkg.sha512"
+      "sha512": "sha512-h/KXsCreJf8RpR/PSAtlbvYtZFndp9N8Wn1Bs248AL7ITyhn+AiIY5bLTvt60tbN2mu6g8KadtBNWygTji2lqg==",
+      "path": "mimekit/4.17.0",
+      "hashPath": "mimekit.4.17.0.nupkg.sha512"
     },
     "Mono.TextTemplating/3.0.0": {
       "type": "package",

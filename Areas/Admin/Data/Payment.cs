@@ -11,6 +11,8 @@ public partial class Payment
 
     public double? Total { get; set; }
 
+    public string Status { get; set; } = null!;
+
     public int? CartId { get; set; }
 
     public virtual Cart? Cart { get; set; }

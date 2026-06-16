@@ -146,6 +146,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/huyph/Downloads/WebBanSanPhamCongNghe/Views/Cart/CheckoutSuccess.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxDaGVja291dFN1Y2Nlc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/huyph/Downloads/WebBanSanPhamCongNghe/Views/Cart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -156,6 +160,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/huyph/Downloads/WebBanSanPhamCongNghe/Views/Customer/ForgotPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcRm9yZ290UGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/huyph/Downloads/WebBanSanPhamCongNghe/Views/Customer/OrderHistory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcT3JkZXJIaXN0b3J5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/huyph/Downloads/WebBanSanPhamCongNghe/Views/Customer/Profile.cshtml]

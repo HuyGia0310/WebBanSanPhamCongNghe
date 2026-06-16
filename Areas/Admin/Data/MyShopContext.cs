@@ -187,6 +187,10 @@ public partial class MyShopContext : DbContext
                 .HasColumnType("datetime")
                 .HasColumnName("createAt");
             entity.Property(e => e.Total).HasColumnName("total");
+            entity.Property(e => e.Status)
+                .HasMaxLength(50)
+                .HasColumnName("status")
+                .HasDefaultValue("Đã đặt hàng");
 
             entity.HasOne(d => d.Cart).WithMany(p => p.Payments)
                 .HasForeignKey(d => d.CartId)

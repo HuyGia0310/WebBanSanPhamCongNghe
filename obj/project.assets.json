@@ -67,7 +67,7 @@
           "buildMultiTargeting/BlazorJS.props": {}
         }
       },
-      "BouncyCastle.Cryptography/2.5.0": {
+      "BouncyCastle.Cryptography/2.6.2": {
         "type": "package",
         "compile": {
           "lib/net6.0/BouncyCastle.Cryptography.dll": {
@@ -717,10 +717,10 @@
           }
         }
       },
-      "MailKit/4.9.0": {
+      "MailKit/4.17.0": {
         "type": "package",
         "dependencies": {
-          "MimeKit": "4.9.0",
+          "MimeKit": "4.17.0",
           "System.Formats.Asn1": "8.0.1"
         },
         "compile": {
@@ -2331,11 +2331,10 @@
           }
         }
       },
-      "MimeKit/4.9.0": {
+      "MimeKit/4.17.0": {
         "type": "package",
         "dependencies": {
-          "BouncyCastle.Cryptography": "2.5.0",
-          "System.Formats.Asn1": "8.0.1",
+          "BouncyCastle.Cryptography": "2.6.2",
           "System.Security.Cryptography.Pkcs": "8.0.1"
         },
         "compile": {
@@ -3268,16 +3267,16 @@
         "staticwebassets/BlazorJS.lib.module.js"
       ]
     },
-    "BouncyCastle.Cryptography/2.5.0": {
-      "sha512": "rc7vRCq/KD3GtIwSgRtjanGaBwTb9nLenFDZnEcauWlssuuEoxcbMfWA3QWWho6QDMSOSkWjs657McdHzEtEcw==",
+    "BouncyCastle.Cryptography/2.6.2": {
+      "sha512": "7oWOcvnntmMKNzDLsdxAYqApt+AjpRpP2CShjMfIa3umZ42UQMvH0tl1qAliYPNYO6vTdcGMqnRrCPmsfzTI1w==",
       "type": "package",
-      "path": "bouncycastle.cryptography/2.5.0",
+      "path": "bouncycastle.cryptography/2.6.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.md",
         "README.md",
-        "bouncycastle.cryptography.2.5.0.nupkg.sha512",
+        "bouncycastle.cryptography.2.6.2.nupkg.sha512",
         "bouncycastle.cryptography.nuspec",
         "lib/net461/BouncyCastle.Cryptography.dll",
         "lib/net461/BouncyCastle.Cryptography.xml",
@@ -4105,10 +4104,10 @@
         "logo.png"
       ]
     },
-    "MailKit/4.9.0": {
-      "sha512": "wRUVzYXRWbjdUixwtSp7ivVHPhWw17h+BvwIVaouBike68B56Xk9b5+QRT39EK/QN8XF7MtOgt9caHvUaCvhIQ==",
+    "MailKit/4.17.0": {
+      "sha512": "1nUAVLxM9fhT/78we6/AGsCesnpn5dRNLLeRqOfr52Wnk87pzVwo5YMTMyqnmoXrYc7piGhmayiMA/OgDluIjg==",
       "type": "package",
-      "path": "mailkit/4.9.0",
+      "path": "mailkit/4.17.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4117,6 +4116,10 @@
         "docs/GMailOAuth2.md",
         "docs/README.md",
         "icons/mailkit-50.png",
+        "lib/net10.0/MailKit.dll",
+        "lib/net10.0/MailKit.dll.config",
+        "lib/net10.0/MailKit.pdb",
+        "lib/net10.0/MailKit.xml",
         "lib/net462/MailKit.dll",
         "lib/net462/MailKit.dll.config",
         "lib/net462/MailKit.pdb",
@@ -4141,7 +4144,7 @@
         "lib/netstandard2.1/MailKit.dll.config",
         "lib/netstandard2.1/MailKit.pdb",
         "lib/netstandard2.1/MailKit.xml",
-        "mailkit.4.9.0.nupkg.sha512",
+        "mailkit.4.17.0.nupkg.sha512",
         "mailkit.nuspec"
       ]
     },
@@ -7140,16 +7143,20 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "MimeKit/4.9.0": {
-      "sha512": "DZXXMZzmAABDxFhOSMb6SE8KKxcRd/sk1E6aJTUE5ys2FWOQhznYV2Gl3klaaSfqKn27hQ32haqquH1J8Z6kJw==",
+    "MimeKit/4.17.0": {
+      "sha512": "h/KXsCreJf8RpR/PSAtlbvYtZFndp9N8Wn1Bs248AL7ITyhn+AiIY5bLTvt60tbN2mu6g8KadtBNWygTji2lqg==",
       "type": "package",
-      "path": "mimekit/4.9.0",
+      "path": "mimekit/4.17.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "docs/FAQ.md",
         "docs/README.md",
         "icons/mimekit-50.png",
+        "lib/net10.0/MimeKit.dll",
+        "lib/net10.0/MimeKit.dll.config",
+        "lib/net10.0/MimeKit.pdb",
+        "lib/net10.0/MimeKit.xml",
         "lib/net462/MimeKit.dll",
         "lib/net462/MimeKit.pdb",
         "lib/net462/MimeKit.xml",
@@ -7171,7 +7178,7 @@
         "lib/netstandard2.1/MimeKit.dll.config",
         "lib/netstandard2.1/MimeKit.pdb",
         "lib/netstandard2.1/MimeKit.xml",
-        "mimekit.4.9.0.nupkg.sha512",
+        "mimekit.4.17.0.nupkg.sha512",
         "mimekit.nuspec"
       ]
     },
@@ -8815,7 +8822,7 @@
     "net8.0": [
       "BlazorJS >= 2.1.6",
       "EPPlus >= 7.5.2",
-      "MailKit >= 4.9.0",
+      "MailKit >= 4.17.0",
       "Microsoft.EntityFrameworkCore >= 9.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.0",
@@ -8883,7 +8890,7 @@
           },
           "MailKit": {
             "target": "Package",
-            "version": "[4.9.0, )"
+            "version": "[4.17.0, )"
           },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",

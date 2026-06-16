@@ -108,10 +108,13 @@ namespace WebBanSanPhamCongNghe.Controllers
         [Authorize]
         public async Task<IActionResult> CheckOut()
         {
+            await using var transaction = await _context.Database.BeginTransactionAsync();
+
             try
             {
                 if (!Cart.Any())
                 {
+                    await transaction.RollbackAsync();
                     TempData["CheckOutErrorMessage"] = "Giỏ hàng không có sản phẩm để thanh toán";
                     return RedirectToAction("Index");
                 }
@@ -119,6 +122,7 @@ namespace WebBanSanPhamCongNghe.Controllers
                 string? customerIdStr = HttpContext.User.FindFirstValue("CustomerId");
                 if (customerIdStr == null)
                 {
+                    await transaction.RollbackAsync();
                     return Redirect("/Customer/SignIn");
                 }
 
@@ -127,43 +131,65 @@ namespace WebBanSanPhamCongNghe.Controllers
 
                 if (customer == null)
                 {
+                    await transaction.RollbackAsync();
                     return Redirect("/404");
                 }
 
-                // Insert Payment vào cơ sở dữ liệu
                 int cartId = await InsertCart(customerId);
-
                 var paymentId = await InsertPayment(cartId);
 
-                if (paymentId.HasValue)
-                {
-                    // Insert Payment Details
-                    bool isPaymentDetailsInserted = await InsertPaymentDetails(paymentId.Value);
-
-                    if (isPaymentDetailsInserted)
-                    {
-                        TempData["CheckOutSuccessMessage"] = "Thanh toán thành công";
-
-                        // Reset giỏ hàng sau khi thanh toán thành công
-                        HttpContext.Session.Set(MyConst.CART_KEY, new List<CartItem>());
-                    }
-                    else
-                    {
-                        TempData["CheckOutErrorMessage"] = "Thanh toán thất bại - Lỗi trong quá trình lưu chi tiết thanh toán";
-                    }
-                }
-                else
+                if (!paymentId.HasValue)
                 {
                     TempData["CheckOutErrorMessage"] = "Thanh toán thất bại - Lỗi trong quá trình lưu thanh toán";
+                    await transaction.RollbackAsync();
+                    return RedirectToAction("Index");
                 }
 
-                return RedirectToAction("Index");
+                bool isPaymentDetailsInserted = await InsertPaymentDetails(paymentId.Value);
+                if (!isPaymentDetailsInserted)
+                {
+                    throw new InvalidOperationException("Thanh toán thất bại - Lỗi trong quá trình lưu chi tiết thanh toán");
+                }
+
+                await transaction.CommitAsync();
+
+                // Reset giỏ hàng sau khi thanh toán thành công
+                HttpContext.Session.Set(MyConst.CART_KEY, new List<CartItem>());
+
+                return RedirectToAction(nameof(CheckoutSuccess), new { id = paymentId.Value });
             }
             catch (Exception ex)
             {
+                await transaction.RollbackAsync();
                 TempData["CheckOutErrorMessage"] = $"Lỗi hệ thống: {ex.Message}";
                 return RedirectToAction("Index");
             }
+        }
+
+        [Authorize]
+        public async Task<IActionResult> CheckoutSuccess(int id)
+        {
+            string? customerIdStr = HttpContext.User.FindFirstValue("CustomerId");
+            if (string.IsNullOrWhiteSpace(customerIdStr))
+            {
+                return Redirect("/Customer/SignIn");
+            }
+
+            int customerId = Convert.ToInt32(customerIdStr);
+
+            var payment = await _context.Payments
+                .Include(p => p.Cart)
+                .ThenInclude(c => c.Customer)
+                .Include(p => p.PaymentDetails)
+                .ThenInclude(pd => pd.Product)
+                .FirstOrDefaultAsync(p => p.Id == id && p.Cart != null && p.Cart.CustomerId == customerId);
+
+            if (payment == null)
+            {
+                return NotFound();
+            }
+
+            return View(payment);
         }
 
         private async Task<int> InsertCart(int customerId)
@@ -192,7 +218,8 @@ namespace WebBanSanPhamCongNghe.Controllers
             {
                 CartId = cartId,
                 CreateAt = DateTime.Now,
-                Total = Cart.Sum(item => item.Total)
+                Total = Cart.Sum(item => item.Total),
+                Status = MyConst.PAYMENT_DEFAULT_STATUS
             };
 
             _context.Payments.Add(payment);

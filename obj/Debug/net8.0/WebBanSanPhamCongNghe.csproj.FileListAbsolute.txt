@@ -1529,10 +1529,10 @@ C:\Users\huyph\Downloads\WebBanSanPhamCongNghe\obj\Debug\net8.0\staticwebassets.
 C:\Users\huyph\Downloads\WebBanSanPhamCongNghe\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\huyph\Downloads\WebBanSanPhamCongNghe\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\huyph\Downloads\WebBanSanPhamCongNghe\obj\Debug\net8.0\swae.build.ex.cache
-C:\Users\huyph\Downloads\WebBanSanPhamCongNghe\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\huyph\Downloads\WebBanSanPhamCongNghe\obj\Debug\net8.0\WebBanSa.18AFD70E.Up2Date
 C:\Users\huyph\Downloads\WebBanSanPhamCongNghe\obj\Debug\net8.0\WebBanSanPhamCongNghe.dll
 C:\Users\huyph\Downloads\WebBanSanPhamCongNghe\obj\Debug\net8.0\refint\WebBanSanPhamCongNghe.dll
 C:\Users\huyph\Downloads\WebBanSanPhamCongNghe\obj\Debug\net8.0\WebBanSanPhamCongNghe.pdb
 C:\Users\huyph\Downloads\WebBanSanPhamCongNghe\obj\Debug\net8.0\WebBanSanPhamCongNghe.genruntimeconfig.cache
 C:\Users\huyph\Downloads\WebBanSanPhamCongNghe\obj\Debug\net8.0\ref\WebBanSanPhamCongNghe.dll
+C:\Users\huyph\Downloads\WebBanSanPhamCongNghe\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

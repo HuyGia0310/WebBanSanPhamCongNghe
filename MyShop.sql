@@ -1,6 +1,104 @@
+USE [master]
+GO
+/****** Object:  Database [MyShop]    Script Date: 6/2/2026 8:59:30 PM ******/
+CREATE DATABASE [MyShop]
+ CONTAINMENT = NONE
+ ON  PRIMARY 
+( NAME = N'MyShop', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL16.MSSQLSERVER\MSSQL\DATA\MyShop.mdf' , SIZE = 8192KB , MAXSIZE = UNLIMITED, FILEGROWTH = 65536KB )
+ LOG ON 
+( NAME = N'MyShop_log', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL16.MSSQLSERVER\MSSQL\DATA\MyShop_log.ldf' , SIZE = 73728KB , MAXSIZE = 2048GB , FILEGROWTH = 65536KB )
+ WITH CATALOG_COLLATION = DATABASE_DEFAULT, LEDGER = OFF
+GO
+ALTER DATABASE [MyShop] SET COMPATIBILITY_LEVEL = 160
+GO
+IF (1 = FULLTEXTSERVICEPROPERTY('IsFullTextInstalled'))
+begin
+EXEC [MyShop].[dbo].[sp_fulltext_database] @action = 'enable'
+end
+GO
+ALTER DATABASE [MyShop] SET ANSI_NULL_DEFAULT OFF 
+GO
+ALTER DATABASE [MyShop] SET ANSI_NULLS OFF 
+GO
+ALTER DATABASE [MyShop] SET ANSI_PADDING OFF 
+GO
+ALTER DATABASE [MyShop] SET ANSI_WARNINGS OFF 
+GO
+ALTER DATABASE [MyShop] SET ARITHABORT OFF 
+GO
+ALTER DATABASE [MyShop] SET AUTO_CLOSE OFF 
+GO
+ALTER DATABASE [MyShop] SET AUTO_SHRINK OFF 
+GO
+ALTER DATABASE [MyShop] SET AUTO_UPDATE_STATISTICS ON 
+GO
+ALTER DATABASE [MyShop] SET CURSOR_CLOSE_ON_COMMIT OFF 
+GO
+ALTER DATABASE [MyShop] SET CURSOR_DEFAULT  GLOBAL 
+GO
+ALTER DATABASE [MyShop] SET CONCAT_NULL_YIELDS_NULL OFF 
+GO
+ALTER DATABASE [MyShop] SET NUMERIC_ROUNDABORT OFF 
+GO
+ALTER DATABASE [MyShop] SET QUOTED_IDENTIFIER OFF 
+GO
+ALTER DATABASE [MyShop] SET RECURSIVE_TRIGGERS OFF 
+GO
+ALTER DATABASE [MyShop] SET  DISABLE_BROKER 
+GO
+ALTER DATABASE [MyShop] SET AUTO_UPDATE_STATISTICS_ASYNC OFF 
+GO
+ALTER DATABASE [MyShop] SET DATE_CORRELATION_OPTIMIZATION OFF 
+GO
+ALTER DATABASE [MyShop] SET TRUSTWORTHY OFF 
+GO
+ALTER DATABASE [MyShop] SET ALLOW_SNAPSHOT_ISOLATION OFF 
+GO
+ALTER DATABASE [MyShop] SET PARAMETERIZATION SIMPLE 
+GO
+ALTER DATABASE [MyShop] SET READ_COMMITTED_SNAPSHOT OFF 
+GO
+ALTER DATABASE [MyShop] SET HONOR_BROKER_PRIORITY OFF 
+GO
+ALTER DATABASE [MyShop] SET RECOVERY FULL 
+GO
+ALTER DATABASE [MyShop] SET  MULTI_USER 
+GO
+ALTER DATABASE [MyShop] SET PAGE_VERIFY CHECKSUM  
+GO
+ALTER DATABASE [MyShop] SET DB_CHAINING OFF 
+GO
+ALTER DATABASE [MyShop] SET FILESTREAM( NON_TRANSACTED_ACCESS = OFF ) 
+GO
+ALTER DATABASE [MyShop] SET TARGET_RECOVERY_TIME = 60 SECONDS 
+GO
+ALTER DATABASE [MyShop] SET DELAYED_DURABILITY = DISABLED 
+GO
+ALTER DATABASE [MyShop] SET ACCELERATED_DATABASE_RECOVERY = OFF  
+GO
+EXEC sys.sp_db_vardecimal_storage_format N'MyShop', N'ON'
+GO
+ALTER DATABASE [MyShop] SET QUERY_STORE = ON
+GO
+ALTER DATABASE [MyShop] SET QUERY_STORE (OPERATION_MODE = READ_WRITE, CLEANUP_POLICY = (STALE_QUERY_THRESHOLD_DAYS = 30), DATA_FLUSH_INTERVAL_SECONDS = 900, INTERVAL_LENGTH_MINUTES = 60, MAX_STORAGE_SIZE_MB = 1000, QUERY_CAPTURE_MODE = AUTO, SIZE_BASED_CLEANUP_MODE = AUTO, MAX_PLANS_PER_QUERY = 200, WAIT_STATS_CAPTURE_MODE = ON)
+GO
 USE [MyShop]
 GO
-/****** Object:  Table [dbo].[cart]    Script Date: 12/30/2025 3:05:14 PM ******/
+/****** Object:  Table [dbo].[__EFMigrationsHistory]    Script Date: 6/2/2026 8:59:30 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[__EFMigrationsHistory](
+	[MigrationId] [nvarchar](150) NOT NULL,
+	[ProductVersion] [nvarchar](32) NOT NULL,
+ CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY CLUSTERED 
+(
+	[MigrationId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[cart]    Script Date: 6/2/2026 8:59:30 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -17,7 +115,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[category]    Script Date: 12/30/2025 3:05:14 PM ******/
+/****** Object:  Table [dbo].[category]    Script Date: 6/2/2026 8:59:30 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -35,7 +133,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[contact]    Script Date: 12/30/2025 3:05:14 PM ******/
+/****** Object:  Table [dbo].[contact]    Script Date: 6/2/2026 8:59:30 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -54,7 +152,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[customer]    Script Date: 12/30/2025 3:05:14 PM ******/
+/****** Object:  Table [dbo].[customer]    Script Date: 6/2/2026 8:59:30 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -80,7 +178,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[menu]    Script Date: 12/30/2025 3:05:14 PM ******/
+/****** Object:  Table [dbo].[menu]    Script Date: 6/2/2026 8:59:30 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -98,7 +196,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[payment]    Script Date: 12/30/2025 3:05:14 PM ******/
+/****** Object:  Table [dbo].[payment]    Script Date: 6/2/2026 8:59:30 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -108,13 +206,14 @@ CREATE TABLE [dbo].[payment](
 	[createAt] [datetime] NULL,
 	[total] [float] NULL,
 	[cartId] [int] NULL,
+	[status] [nvarchar](50) NOT NULL,
 PRIMARY KEY CLUSTERED 
 (
 	[id] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[paymentDetail]    Script Date: 12/30/2025 3:05:14 PM ******/
+/****** Object:  Table [dbo].[paymentDetail]    Script Date: 6/2/2026 8:59:30 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -133,7 +232,7 @@ CREATE TABLE [dbo].[paymentDetail](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[product]    Script Date: 12/30/2025 3:05:14 PM ******/
+/****** Object:  Table [dbo].[product]    Script Date: 6/2/2026 8:59:30 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -154,7 +253,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[review]    Script Date: 12/30/2025 3:05:14 PM ******/
+/****** Object:  Table [dbo].[review]    Script Date: 6/2/2026 8:59:30 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -172,21 +271,57 @@ CREATE TABLE [dbo].[review](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
+SET IDENTITY_INSERT [dbo].[cart] ON 
+GO
+INSERT [dbo].[cart] ([id], [customerId], [createAt], [productId], [quantity]) VALUES (1, 1, CAST(N'2026-01-07T20:11:28.753' AS DateTime), 6, 1)
+GO
+INSERT [dbo].[cart] ([id], [customerId], [createAt], [productId], [quantity]) VALUES (2, 1, CAST(N'2026-01-09T14:56:16.710' AS DateTime), 23, 2)
+GO
+INSERT [dbo].[cart] ([id], [customerId], [createAt], [productId], [quantity]) VALUES (3, 1, CAST(N'2026-04-05T16:45:20.560' AS DateTime), 1, 1)
+GO
+INSERT [dbo].[cart] ([id], [customerId], [createAt], [productId], [quantity]) VALUES (4, 1, CAST(N'2026-05-28T15:28:40.320' AS DateTime), 3, 1)
+GO
+INSERT [dbo].[cart] ([id], [customerId], [createAt], [productId], [quantity]) VALUES (5, 1, CAST(N'2026-05-28T15:28:44.847' AS DateTime), 3, 1)
+GO
+INSERT [dbo].[cart] ([id], [customerId], [createAt], [productId], [quantity]) VALUES (6, 1, CAST(N'2026-05-28T15:28:50.747' AS DateTime), 3, 2)
+GO
+INSERT [dbo].[cart] ([id], [customerId], [createAt], [productId], [quantity]) VALUES (7, 1, CAST(N'2026-05-28T15:28:56.717' AS DateTime), 3, 2)
+GO
+INSERT [dbo].[cart] ([id], [customerId], [createAt], [productId], [quantity]) VALUES (8, 1, CAST(N'2026-05-28T15:29:40.697' AS DateTime), 23, 3)
+GO
+INSERT [dbo].[cart] ([id], [customerId], [createAt], [productId], [quantity]) VALUES (9, 1, CAST(N'2026-05-28T15:29:46.200' AS DateTime), 23, 1)
+GO
+INSERT [dbo].[cart] ([id], [customerId], [createAt], [productId], [quantity]) VALUES (10, 1, CAST(N'2026-05-28T15:35:37.610' AS DateTime), 4, 1)
+GO
+INSERT [dbo].[cart] ([id], [customerId], [createAt], [productId], [quantity]) VALUES (11, 1, CAST(N'2026-05-29T12:56:10.940' AS DateTime), 23, 1)
+GO
+INSERT [dbo].[cart] ([id], [customerId], [createAt], [productId], [quantity]) VALUES (12, 1, CAST(N'2026-05-29T12:58:34.960' AS DateTime), 23, 1)
+GO
+SET IDENTITY_INSERT [dbo].[cart] OFF
+GO
 SET IDENTITY_INSERT [dbo].[category] ON 
 GO
-INSERT [dbo].[category] ([id], [title], [content], [createAt], [updateAt], [img]) VALUES (1, N'Điện Thoại', N'Cung cấp tất cả những sản phẩm chính hãng của thương hiệu Apple như là: iPhone, iPad, Watch, Mac và cả những sản phẩm Samsung cùng với phụ Kiện Xiaomi.', CAST(N'2024-07-24T14:33:29.983' AS DateTime), CAST(N'2024-07-24T14:33:29.983' AS DateTime), NULL)
+INSERT [dbo].[category] ([id], [title], [content], [createAt], [updateAt], [img]) VALUES (1, N'Điện Thoại', N'Cung cấp tất cả những sản phẩm chính hãng của thương hiệu Apple như là: iPhone, iPad, Watch, Mac và cả những sản phẩm Samsung cùng với phụ Kiện Xiaomi.', CAST(N'2024-07-24T14:33:29.983' AS DateTime), CAST(N'2025-12-30T15:38:15.497' AS DateTime), N'20251230153811iphone-14-pro-max-512.jpg')
 GO
-INSERT [dbo].[category] ([id], [title], [content], [createAt], [updateAt], [img]) VALUES (2, N'Laptop', N'Tự hào là một trong những đơn vị hàng đầu trong lĩnh vực kinh doanh laptop, linh kiện laptop tại Khánh Hòa, Với trên 10 năm kinh nghiệm, theo phương châm "Uy tín trên từng sản phẩm"  cùng hơn 50.000 Khách Hàng thân thiết, chúng tôi cam kết tất cả các sản phẩm laptop bán ra đều có chất lượng tốt nhất trên thị trường hiện nay. Tất cả laptop, linh kiện tại showroom đều được bảo hành chuẩn chỉ theo quy chế của các hãng.', CAST(N'2024-07-24T14:33:29.983' AS DateTime), CAST(N'2024-07-24T14:33:29.983' AS DateTime), NULL)
+INSERT [dbo].[category] ([id], [title], [content], [createAt], [updateAt], [img]) VALUES (2, N'Laptop', N'Tự hào là một trong những đơn vị hàng đầu trong lĩnh vực kinh doanh laptop, linh kiện laptop tại Khánh Hòa, Với trên 10 năm kinh nghiệm, theo phương châm "Uy tín trên từng sản phẩm"  cùng hơn 50.000 Khách Hàng thân thiết, chúng tôi cam kết tất cả các sản phẩm laptop bán ra đều có chất lượng tốt nhất trên thị trường hiện nay. Tất cả laptop, linh kiện tại showroom đều được bảo hành chuẩn chỉ theo quy chế của các hãng.', CAST(N'2024-07-24T14:33:29.983' AS DateTime), CAST(N'2025-12-30T15:38:51.710' AS DateTime), N'20251230153851vi-vn-msi-gaming-gf63-thin-11uc-i7-1228vn-slider-5.jpg')
 GO
-INSERT [dbo].[category] ([id], [title], [content], [createAt], [updateAt], [img]) VALUES (3, N'PC', N'Chuyên cung cấp các sản phẩm laptop xách tay Mỹ, máy tính để bàn chính hãng zin 100%, các loại linh kiện vi tính chính hãng... Đến với Worklap, người dùng sẽ được trải nghiệm các thiết bị máy tính laptop xách tay chất lượng với nhiều phân khúc giá, thương hiệu, phù hợp với nhiều nhu cầu sử dụng khác nhau.', CAST(N'2024-07-24T14:33:29.983' AS DateTime), CAST(N'2024-07-24T14:33:29.983' AS DateTime), NULL)
+INSERT [dbo].[category] ([id], [title], [content], [createAt], [updateAt], [img]) VALUES (3, N'PC', N'Chuyên cung cấp các sản phẩm laptop xách tay Mỹ, máy tính để bàn chính hãng zin 100%, các loại linh kiện vi tính chính hãng... Đến với Worklap, người dùng sẽ được trải nghiệm các thiết bị máy tính laptop xách tay chất lượng với nhiều phân khúc giá, thương hiệu, phù hợp với nhiều nhu cầu sử dụng khác nhau.', CAST(N'2024-07-24T14:33:29.983' AS DateTime), CAST(N'2025-12-30T15:40:58.623' AS DateTime), N'20251230154058vi-vn-hp-tp014018d-i3-8x3r4pa-2.jpg')
 GO
-INSERT [dbo].[category] ([id], [title], [content], [createAt], [updateAt], [img]) VALUES (4, N'Tablet', N'Khi mua một chiếc tablet, chắc hẳn bạn sẽ phải tìm hiểu rất kỹ mới có thể đưa ra quyết định, vì con số chi trả cho nó không phải nhỏ. Và không biết thiết bị đó có thể hỗ trợ liên lạc, học tập, giải trí,... Vậy hãy cùng tìm hiểu kĩ về tablet và cùng tham khảo các thương hiệu Tablet HOT nhất hiện nay để có được sự lựa chọn phù hợp bạn nhé!', CAST(N'2024-07-24T14:33:29.983' AS DateTime), CAST(N'2024-07-24T14:33:29.983' AS DateTime), NULL)
+INSERT [dbo].[category] ([id], [title], [content], [createAt], [updateAt], [img]) VALUES (4, N'Tablet', N'Khi mua một chiếc tablet, chắc hẳn bạn sẽ phải tìm hiểu rất kỹ mới có thể đưa ra quyết định, vì con số chi trả cho nó không phải nhỏ. Và không biết thiết bị đó có thể hỗ trợ liên lạc, học tập, giải trí,... Vậy hãy cùng tìm hiểu kĩ về tablet và cùng tham khảo các thương hiệu Tablet HOT nhất hiện nay để có được sự lựa chọn phù hợp bạn nhé!', CAST(N'2024-07-24T14:33:29.983' AS DateTime), CAST(N'2025-12-30T15:43:44.650' AS DateTime), N'20251230154344vi-vn-tcl-tab-10-gen-2-slider--(2).jpg')
 GO
-INSERT [dbo].[category] ([id], [title], [content], [createAt], [updateAt], [img]) VALUES (5, N'Phụ kiện', N'Cung cấp nhiều phụ kiện mới, nổi bật khác như: Phụ Kiện Apple Watch, Củ Sạc - Sạc Không Dây, Cáp Sạc - Đầu Chuyển, Pin - Sạc Dự Phòng - Ốp Sạc, Tai Nghe - Tai Nghe Không Dây, Loa Không Dây - Tv Box, Bàn Phím - Gậy Chụp Ảnh, Tb.Lưu Trữ - Đ.C Công Nghệ, Túi Đeo - Bao Da - Sim Ghép, Phụ Kiện Công Nghệ Xiaomi , Vòng Đeo Tay Thông Minh.', CAST(N'2024-07-24T14:33:29.983' AS DateTime), CAST(N'2024-07-24T14:33:29.983' AS DateTime), NULL)
+INSERT [dbo].[category] ([id], [title], [content], [createAt], [updateAt], [img]) VALUES (5, N'Phụ kiện', N'Cung cấp nhiều phụ kiện mới, nổi bật khác như: Phụ Kiện Apple Watch, Củ Sạc - Sạc Không Dây, Cáp Sạc - Đầu Chuyển, Pin - Sạc Dự Phòng - Ốp Sạc, Tai Nghe - Tai Nghe Không Dây, Loa Không Dây - Tv Box, Bàn Phím - Gậy Chụp Ảnh, Tb.Lưu Trữ - Đ.C Công Nghệ, Túi Đeo - Bao Da - Sim Ghép, Phụ Kiện Công Nghệ Xiaomi , Vòng Đeo Tay Thông Minh.', CAST(N'2024-07-24T14:33:29.983' AS DateTime), CAST(N'2025-12-30T15:41:22.500' AS DateTime), N'20251230154122loa-vi-tinh-2-1-fenda-f670x-3-2.jpg')
 GO
-INSERT [dbo].[category] ([id], [title], [content], [createAt], [updateAt], [img]) VALUES (6, N'Smart Watch', N'Nếu bạn đang tìm kiếm một chiếc smartwatch chính hãng có thiết kế được ưa chuộng cho bản thân hoặc dành tặng cho người quen hãy tham khảo ngay top 7 các hãng đồng hồ thông minh chính hãng rất được ưa chuộng tại website của chúng tôi để tha hồ lựa chọn.', CAST(N'2024-07-24T14:33:29.983' AS DateTime), CAST(N'2024-07-24T14:33:29.983' AS DateTime), NULL)
+INSERT [dbo].[category] ([id], [title], [content], [createAt], [updateAt], [img]) VALUES (6, N'Smart Watch', N'Nếu bạn đang tìm kiếm một chiếc smartwatch chính hãng có thiết kế được ưa chuộng cho bản thân hoặc dành tặng cho người quen hãy tham khảo ngay top 7 các hãng đồng hồ thông minh chính hãng rất được ưa chuộng tại website của chúng tôi để tha hồ lựa chọn.', CAST(N'2024-07-24T14:33:29.983' AS DateTime), CAST(N'2025-12-30T15:43:22.550' AS DateTime), N'20251230154322SMW.jpg')
 GO
 SET IDENTITY_INSERT [dbo].[category] OFF
+GO
+SET IDENTITY_INSERT [dbo].[customer] ON 
+GO
+INSERT [dbo].[customer] ([id], [firstName], [lastName], [address], [phone], [email], [img], [registeredAt], [updateAt], [dateOfBirth], [password], [randomKey], [isActive], [role]) VALUES (1, N'huy', N'gia', N'96 ND', N'0917036381', N'huy.pg.64cntt@ntu.edu.vn', N'avatar-default.jpg', CAST(N'2025-12-30T15:35:06.377' AS DateTime), CAST(N'2025-12-30T15:35:06.377' AS DateTime), CAST(N'2004-04-10' AS Date), N'089bc6e0c7795a92408de895f596b610', N'vw!jm', 1, 1)
+GO
+INSERT [dbo].[customer] ([id], [firstName], [lastName], [address], [phone], [email], [img], [registeredAt], [updateAt], [dateOfBirth], [password], [randomKey], [isActive], [role]) VALUES (2, N'huy', N'huy', N'93 NĐ', N'0905039109', N'123@gmail.com', N'avatar-default.jpg', CAST(N'2025-12-30T15:36:02.380' AS DateTime), CAST(N'2025-12-30T15:51:47.477' AS DateTime), CAST(N'2000-03-11' AS Date), N'f5020af1e48e3d3bd547c83462006d6b', N'MeTje', 1, 0)
+GO
+SET IDENTITY_INSERT [dbo].[customer] OFF
 GO
 SET IDENTITY_INSERT [dbo].[menu] ON 
 GO
@@ -213,6 +348,44 @@ GO
 INSERT [dbo].[menu] ([id], [parentId], [title], [menuUrl], [menuIndex], [isVisible]) VALUES (11, NULL, N'Trang quản trị', N'/Admin/ProductAdmin', 11, 1)
 GO
 SET IDENTITY_INSERT [dbo].[menu] OFF
+GO
+SET IDENTITY_INSERT [dbo].[payment] ON 
+GO
+INSERT [dbo].[payment] ([id], [createAt], [total], [cartId], [status]) VALUES (1, CAST(N'2026-01-07T20:11:28.903' AS DateTime), 109950000, 1, N'Đã đặt hàng')
+GO
+INSERT [dbo].[payment] ([id], [createAt], [total], [cartId], [status]) VALUES (2, CAST(N'2026-01-09T14:56:16.920' AS DateTime), 2780000, 2, N'Đã đặt hàng')
+GO
+INSERT [dbo].[payment] ([id], [createAt], [total], [cartId], [status]) VALUES (3, CAST(N'2026-04-05T16:45:20.720' AS DateTime), 18790000, 3, N'Đã đặt hàng')
+GO
+INSERT [dbo].[payment] ([id], [createAt], [total], [cartId], [status]) VALUES (4, CAST(N'2026-05-28T15:35:37.870' AS DateTime), 18190000, 10, N'Đã đặt hàng')
+GO
+INSERT [dbo].[payment] ([id], [createAt], [total], [cartId], [status]) VALUES (5, CAST(N'2026-05-29T12:56:11.120' AS DateTime), 1390000, 11, N'Đã đặt hàng')
+GO
+INSERT [dbo].[payment] ([id], [createAt], [total], [cartId], [status]) VALUES (6, CAST(N'2026-05-29T12:58:34.967' AS DateTime), 20180000, 12, N'Đã đặt hàng')
+GO
+SET IDENTITY_INSERT [dbo].[payment] OFF
+GO
+INSERT [dbo].[paymentDetail] ([productId], [paymentId], [price], [quantity], [total], [createAt]) VALUES (1, 1, 18790000, 1, 18790000, CAST(N'2026-01-07T20:11:28.943' AS DateTime))
+GO
+INSERT [dbo].[paymentDetail] ([productId], [paymentId], [price], [quantity], [total], [createAt]) VALUES (1, 3, 18790000, 1, 18790000, CAST(N'2026-04-05T16:45:20.747' AS DateTime))
+GO
+INSERT [dbo].[paymentDetail] ([productId], [paymentId], [price], [quantity], [total], [createAt]) VALUES (1, 6, 18790000, 1, 18790000, CAST(N'2026-05-29T12:58:34.973' AS DateTime))
+GO
+INSERT [dbo].[paymentDetail] ([productId], [paymentId], [price], [quantity], [total], [createAt]) VALUES (3, 1, 16490000, 1, 16490000, CAST(N'2026-01-07T20:11:28.943' AS DateTime))
+GO
+INSERT [dbo].[paymentDetail] ([productId], [paymentId], [price], [quantity], [total], [createAt]) VALUES (4, 1, 18190000, 1, 18190000, CAST(N'2026-01-07T20:11:28.943' AS DateTime))
+GO
+INSERT [dbo].[paymentDetail] ([productId], [paymentId], [price], [quantity], [total], [createAt]) VALUES (4, 4, 18190000, 1, 18190000, CAST(N'2026-05-28T15:35:37.933' AS DateTime))
+GO
+INSERT [dbo].[paymentDetail] ([productId], [paymentId], [price], [quantity], [total], [createAt]) VALUES (5, 1, 33990000, 1, 33990000, CAST(N'2026-01-07T20:11:28.943' AS DateTime))
+GO
+INSERT [dbo].[paymentDetail] ([productId], [paymentId], [price], [quantity], [total], [createAt]) VALUES (6, 1, 22490000, 1, 22490000, CAST(N'2026-01-07T20:11:28.930' AS DateTime))
+GO
+INSERT [dbo].[paymentDetail] ([productId], [paymentId], [price], [quantity], [total], [createAt]) VALUES (23, 2, 1390000, 2, 2780000, CAST(N'2026-01-09T14:56:16.947' AS DateTime))
+GO
+INSERT [dbo].[paymentDetail] ([productId], [paymentId], [price], [quantity], [total], [createAt]) VALUES (23, 5, 1390000, 1, 1390000, CAST(N'2026-05-29T12:56:11.153' AS DateTime))
+GO
+INSERT [dbo].[paymentDetail] ([productId], [paymentId], [price], [quantity], [total], [createAt]) VALUES (23, 6, 1390000, 1, 1390000, CAST(N'2026-05-29T12:58:34.973' AS DateTime))
 GO
 SET IDENTITY_INSERT [dbo].[product] ON 
 GO
@@ -260,11 +433,19 @@ INSERT [dbo].[product] ([id], [title], [content], [img], [price], [rate], [creat
 GO
 INSERT [dbo].[product] ([id], [title], [content], [img], [price], [rate], [createAt], [updateAt], [categoryId]) VALUES (22, N'Loa Bluetooth JBL Go 3', N'Sang trọng, hiện đại, kích thước nhỏ gọn dễ mang theo. Kết nối nhanh chóng, ổn định, mượt mà với Bluetooth 5.1. Công suất 4.2 W với công nghệ JBL Pro Sound cho âm thanh mạnh mẽ, sống động. Kháng bụi, chống nước chuẩn IP67. Sạc đầy pin trong 2.5 giờ, sử dụng lên đến 5 giờ.', N'bluetooth-jbl-go-3-xanh-den-1-org.jpg', 790000, 0, CAST(N'2024-07-24T15:45:18.247' AS DateTime), CAST(N'2024-07-24T15:45:18.247' AS DateTime), 5)
 GO
-INSERT [dbo].[product] ([id], [title], [content], [img], [price], [rate], [createAt], [updateAt], [categoryId]) VALUES (23, N'Loa Fenda F670X', N'Sở hữu kiểu dáng mạnh mẽ, gam màu sang trọng, âm thanh sống động, hiệu ứng đèn LED RGB đẹp mắt, kết nối không dây nhanh chóng mang đến cho bạn những trải nghiệm tuyệt vời.', N'loa-vi-tinh-2-1-fenda-f670x-3-2.jpg', 1390000, 0, CAST(N'2024-07-24T15:46:15.587' AS DateTime), CAST(N'2024-07-24T15:46:15.587' AS DateTime), 5)
+INSERT [dbo].[product] ([id], [title], [content], [img], [price], [rate], [createAt], [updateAt], [categoryId]) VALUES (23, N'Loa Fenda F670X', N'Sở hữu kiểu dáng mạnh mẽ, gam màu sang trọng, âm thanh sống động, hiệu ứng đèn LED RGB đẹp mắt, kết nối không dây nhanh chóng mang đến cho bạn những trải nghiệm tuyệt vời.', N'loa-vi-tinh-2-1-fenda-f670x-3-2.jpg', 1390000, 5, CAST(N'2024-07-24T15:46:15.587' AS DateTime), CAST(N'2024-07-24T15:46:15.587' AS DateTime), 5)
 GO
 SET IDENTITY_INSERT [dbo].[product] OFF
 GO
+SET IDENTITY_INSERT [dbo].[review] ON 
+GO
+INSERT [dbo].[review] ([id], [rate], [message], [createAt], [productId], [customerId]) VALUES (1, 5, N'abc', CAST(N'2026-01-09T14:58:28.077' AS DateTime), 23, 1)
+GO
+SET IDENTITY_INSERT [dbo].[review] OFF
+GO
 ALTER TABLE [dbo].[menu] ADD  DEFAULT ((1)) FOR [isVisible]
+GO
+ALTER TABLE [dbo].[payment] ADD  CONSTRAINT [DF_payment_status]  DEFAULT (N'Đã đặt hàng') FOR [status]
 GO
 ALTER TABLE [dbo].[cart]  WITH CHECK ADD FOREIGN KEY([customerId])
 REFERENCES [dbo].[customer] ([id])

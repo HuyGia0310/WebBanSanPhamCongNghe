@@ -1,0 +1,93 @@
+@model IEnumerable<WebBanSanPhamCongNghe.Areas.Admin.Data.Payment>
+
+@functions {
+    private string GetStatusClass(string? status) => status switch
+    {
+        "Đã đặt hàng" => "bg-warning text-dark",
+        "Đang xử lý" => "bg-info text-dark",
+        "Đang giao" => "bg-primary",
+        "Hoàn thành" => "bg-success",
+        "Đã hủy" => "bg-danger",
+        _ => "bg-secondary"
+    };
+}
+
+@{
+    ViewData["Title"] = "Order History";
+}
+
+<!-- Single Page Header start -->
+<div class="container-fluid page-header py-5">
+    <h1 class="text-center text-white display-6">Lịch sử đơn hàng</h1>
+    <ol class="breadcrumb justify-content-center mb-0">
+        <li class="breadcrumb-item"><a href="/">Trang chủ</a></li>
+        <li class="breadcrumb-item active text-white">Lịch sử đơn hàng</li>
+    </ol>
+</div>
+<!-- Single Page Header End -->
+
+<div class="container-fluid py-5">
+    <div class="container py-5">
+        <div class="card border-0 shadow-sm">
+            <div class="card-body p-4 p-lg-5">
+                <div class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center gap-2 mb-4">
+                    <div>
+                        <p class="text-primary text-uppercase fw-semibold mb-1">Tài khoản của bạn</p>
+                        <h2 class="mb-0">Danh sách đơn hàng đã mua</h2>
+                    </div>
+                    <a asp-controller="Product" asp-action="Index" class="btn btn-outline-primary rounded-pill px-4">
+                        Mua sắm thêm
+                    </a>
+                </div>
+
+                @if (Model != null && Model.Any())
+                {
+                    <div class="table-responsive">
+                        <table class="table align-middle">
+                            <thead class="table-light">
+                                <tr>
+                                    <th>Mã đơn</th>
+                                    <th>Ngày mua</th>
+                                    <th>Tổng tiền</th>
+                                    <th>Trạng thái</th>
+                                    <th class="text-end">Hành động</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>#@item.Id</td>
+                                        <td>@((item.CreateAt?.ToString("dd/MM/yyyy HH:mm")) ?? "N/A")</td>
+                                        <td>@($"{(item.Total ?? 0):#,##0} VND")</td>
+                                        <td>
+                                            <span class="badge rounded-pill @GetStatusClass(item.Status)">@item.Status</span>
+                                        </td>
+                                        <td class="text-end">
+                                            <a asp-controller="Cart"
+                                               asp-action="CheckoutSuccess"
+                                               asp-route-id="@item.Id"
+                                               class="btn btn-sm btn-primary rounded-pill px-3">
+                                                Xem chi tiết
+                                            </a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                }
+                else
+                {
+                    <div class="text-center py-5">
+                        <h4 class="mb-3">Bạn chưa có đơn hàng nào</h4>
+                        <p class="text-muted mb-4">Khi bạn hoàn tất mua hàng, trạng thái đơn sẽ hiển thị ở đây.</p>
+                        <a asp-controller="Product" asp-action="Index" class="btn btn-primary rounded-pill px-4 py-3">
+                            Bắt đầu mua sắm
+                        </a>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
